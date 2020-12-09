@@ -1,2 +1,4 @@
 # Hades-VegaM
-MOD AMD RX Vega M driver support for Hades Canyon
+Mod AMD RX Vega M GPU driver support for Intel NUC Hades Canyon
+
+![software](Screenshots/sample1.png)
