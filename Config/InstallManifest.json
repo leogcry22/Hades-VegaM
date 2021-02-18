@@ -4,23 +4,23 @@
       "Beta64buildpath" : "",
       "BetaReleaseNotes" : "",
       "Betaversion" : "",
-      "BuildVersion" : "20.45.33.01-210127a-363700E-RadeonSoftwareAdrenalin2020",
+      "BuildVersion" : "20.45.35.01-210204a-364033E-RadeonSoftwareAdrenalin2020",
       "DGPUWorkaround" : "true",
       "EGNIkbArtLink" : "http://support.amd.com/en-us/kb-articles/Pages/Driver-Install-Upgrade-Case.aspx",
       "EnableAnalyticTracking" : "false",
       "EnableAnalytics" : "true",
       "EnableDVRTracking" : "true",
       "EnableHWCustomSettings" : "true",
-      "ExternalVersion" : "21.2.1",
+      "ExternalVersion" : "21.2.2",
       "MinBuildPath" : "",
       "OEM" : "",
       "OneClickEligible" : "true",
       "RadeonSoftwareEdition" : "Adrenalin 2020",
-      "RadeonSoftwareVersion" : "21.2.1",
+      "RadeonSoftwareVersion" : "21.2.2",
       "ReleaseNotes" : "",
       "UEITracking" : "true",
       "UseCustomSettings" : "true",
-      "Version" : "20.45.33.01-210127a-363700E-RadeonSoftwareAdrenalin2020",
+      "Version" : "20.45.35.01-210204a-364033E-RadeonSoftwareAdrenalin2020",
       "WebBrowserURL" : "AMD",
       "WorkaroundInstall" : "false"
    },
@@ -28,44 +28,8 @@
       "Package" : [
          {
             "Info" : {
-               "Description" : "AMD Settings Branding",
-               "InstallByDefault" : "Yes",
-               "Installfile" : "CNBranding64.msi",
-               "NoUninstallSupport" : "Yes",
-               "PID" : "W-10-0U03-000-002-194-001-00-25",
-               "ProductGUID" : "{856DA29A-EA4A-468B-BBC2-B5F60DD75BFE}",
-               "ProductUpgradeGUID" : "{D72F6448-DD07-4DD4-A34B-F224A5106D9C}",
-               "UninstallSupported" : "Yes",
-               "bDowngrade" : "Yes",
-               "bdisplayProductName" : "true",
-               "productName" : "Branding64",
-               "ptype" : "MSI",
-               "url" : "Apps\\CNBranding\\CNBranding64.msi",
-               "version" : "1.00.0003"
-            },
-            "Install" : {
-               "CmdParameters" : "REBOOT=ReallySuppress",
-               "Conditions" : {
-                  "DependencyCheck" : [
-                     "*:*:W-10-0U01-000-002-192-001-00-25:*"
-                  ],
-                  "HWCheck" : [],
-                  "HWExclude" : [],
-                  "OSCheck" : [
-                     "*-*-10.0-Yes-*-*",
-                     "*-*-6.1-Yes-*-*",
-                     "*-*-6.3-Yes-*-*"
-                  ]
-               },
-               "Order" : "612",
-               "pAlgo" : "",
-               "pRetryAlgo" : ""
-            }
-         },
-         {
-            "Info" : {
                "Description" : "Display driver for Windows 10",
-               "DrivePackageInffile" : "C0363700.INF",
+               "DrivePackageInffile" : "C0364033.INF",
                "FriendProductUpgradeGUID" : [
                   "{E5846BD2-7506-474F-9F0B-2AF75DBA6268}",
                   "{3C909021-C40E-489B-9C1F-6C046683FCD7}",
@@ -90,9 +54,9 @@
                "packageSize" : "90",
                "productName" : "AMD Display Driver",
                "ptype" : "DRIVER",
-               "universalinf" : "U0363700.INF",
-               "url" : "Drivers\\Display\\WT6A_INF\\C0363700.INF",
-               "version" : "27.20.14533.1000"
+               "universalinf" : "U0364033.INF",
+               "url" : "Drivers\\Display\\WT6A_INF\\C0364033.INF",
+               "version" : "27.20.14535.1000"
             },
             "Install" : {
                "CmdParameters" : "Force DevPresent",
@@ -1270,7 +1234,7 @@
                "ptype" : "DRIVER",
                "universalinf" : "<UNIVERSALINFNAME>",
                "url" : "Drivers\\Audio\\ACPBus\\WT64A\\amdacpbus.INF",
-               "version" : "2.89.0.75"
+               "version" : "2.89.0.77"
             },
             "Install" : {
                "CmdParameters" : "force DevPresent",
@@ -1456,7 +1420,7 @@
                "Installfile" : "AUEP64.msi",
                "NoUninstallSupport" : "Yes",
                "PID" : "W-06-1U00-000-002-227-001-00-25",
-               "ProductGUID" : "{27155B14-D630-4B22-81F4-4067B1294F84}",
+               "ProductGUID" : "{815E00B9-ABE2-442C-852D-3C7FC06163CF}",
                "ProductUpgradeGUID" : "{14FF974F-1802-43D4-B8FE-78AF51D911D6}",
                "UninstallSupported" : "Yes",
                "bDowngrade" : "Yes",
@@ -1465,7 +1429,7 @@
                "productName" : "AMD User Experience Program Installer",
                "ptype" : "MSI",
                "url" : "Apps\\AUEP64\\AUEP64.msi",
-               "version" : "2045.33.01.127"
+               "version" : "2045.35.01.205"
             },
             "Install" : {
                "CmdParameters" : "REBOOT=ReallySuppress ARPSYSTEMCOMPONENT=1",
@@ -2703,7 +2667,7 @@
                "ptype" : "DRIVER",
                "universalinf" : "<UNIVERSALINFNAME>",
                "url" : "Drivers\\Audio\\ACPAfd\\WT64A\\amdacpafd.INF",
-               "version" : "2.0.0.50"
+               "version" : "2.0.0.51"
             },
             "Install" : {
                "CmdParameters" : " ",
@@ -2812,7 +2776,7 @@
                "Installfile" : "RadeonLED.msi",
                "NoUninstallSupport" : "Yes",
                "PID" : "W-00-0000-000-002-229-001-00-25",
-               "ProductGUID" : "{1EB22ECF-3427-4900-8F0F-E4EEA8018C24}",
+               "ProductGUID" : "{1F355808-40C1-418B-A444-C83EC7CAE738}",
                "ProductUpgradeGUID" : "{5D33C7EA-5F00-4287-A2C4-146E3E64D469}",
                "UninstallSupported" : "Yes",
                "bDowngrade" : "Yes",
@@ -2839,6 +2803,42 @@
                   ]
                },
                "Order" : "800",
+               "pAlgo" : "",
+               "pRetryAlgo" : ""
+            }
+         },
+         {
+            "Info" : {
+               "Description" : "AMD Settings Branding",
+               "InstallByDefault" : "Yes",
+               "Installfile" : "CNBranding64.msi",
+               "NoUninstallSupport" : "Yes",
+               "PID" : "W-10-0U03-000-002-194-001-00-25",
+               "ProductGUID" : "{856DA29A-EA4A-468B-BBC2-B5F60DD75BFE}",
+               "ProductUpgradeGUID" : "{D72F6448-DD07-4DD4-A34B-F224A5106D9C}",
+               "UninstallSupported" : "Yes",
+               "bDowngrade" : "Yes",
+               "bdisplayProductName" : "true",
+               "productName" : "Branding64",
+               "ptype" : "MSI",
+               "url" : "Apps\\CNBranding\\CNBranding64.msi",
+               "version" : "1.00.0003"
+            },
+            "Install" : {
+               "CmdParameters" : "REBOOT=ReallySuppress",
+               "Conditions" : {
+                  "DependencyCheck" : [
+                     "*:*:W-10-0U01-000-002-192-001-00-25:*"
+                  ],
+                  "HWCheck" : [],
+                  "HWExclude" : [],
+                  "OSCheck" : [
+                     "*-*-10.0-Yes-*-*",
+                     "*-*-6.1-Yes-*-*",
+                     "*-*-6.3-Yes-*-*"
+                  ]
+               },
+               "Order" : "612",
                "pAlgo" : "",
                "pRetryAlgo" : ""
             }
