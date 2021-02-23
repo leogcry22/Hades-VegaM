@@ -1,6 +1,6 @@
 ;-----------------------------------------------
-;----------2102110909-20.45.35.01-210204a-364033E-RadeonSoftwareAdrenalin2020
-;----------2255550
+;----------2102220714-20.45.35.03-210217a-364232E-RadeonSoftwareAdrenalin2020
+;----------2262424
 
 ; AMD display information file
 ;
@@ -13,9 +13,9 @@ Signature="$Windows NT$"
 Provider=%ATI%
 ClassGUID={4D36E968-E325-11CE-BFC1-08002BE10318}
 Class=Display
-DriverVer=02/05/2021, 27.20.14535.1000
+DriverVer=02/17/2021, 27.20.14535.3005
 ;;LayoutFile=layout.inf
-CatalogFile=C0364033.CAT
+CatalogFile=C0364232.CAT
 
 [SignatureAttributes]
 atidxx32.dll=SignatureAttributes.PETrust
@@ -71,7 +71,7 @@ R300.VCE = 11
 R300.VCEWOW = 10, SysWOW64
 Coinstaller_CopyFiles = 11
 R300.OD = 11
-DS.Graphics = 13, B363860
+DS.Graphics = 13, B364161
 DS.System32 = 11
 DS.DelFiles = 11
 DS.SysWow64 = 10, SysWOW64
@@ -145,22 +145,33 @@ ExcludeFromSelect=*
 "%AMD15D8.21%" = ati2mtag_Picasso, PCI\VEN_1002&DEV_15D8&REV_94
 "%AMD15D8.22%" = ati2mtag_Picasso, PCI\VEN_1002&DEV_15D8&REV_95
 "%AMD15D8.23%" = ati2mtag_Picasso, PCI\VEN_1002&DEV_15D8&REV_C1
-"%AMD15D8.24%" = ati2mtag_Picasso, PCI\VEN_1002&DEV_15D8&REV_C5
-"%AMD15D8.25%" = ati2mtag_PicassoAM4, PCI\VEN_1002&DEV_15D8&REV_CB
-"%AMD15D8.26%" = ati2mtag_PicassoAM4, PCI\VEN_1002&DEV_15D8&REV_CC
-"%AMD15D8.27%" = ati2mtag_Picasso, PCI\VEN_1002&DEV_15D8&REV_CD
-"%AMD15D8.28%" = ati2mtag_Picasso, PCI\VEN_1002&DEV_15D8&REV_CE
-"%AMD15D8.29%" = ati2mtag_Picasso, PCI\VEN_1002&DEV_15D8&REV_CF
-"%AMD15D8.30%" = ati2mtag_Picasso, PCI\VEN_1002&DEV_15D8&REV_D1
-"%AMD15D8.31%" = ati2mtag_Picasso, PCI\VEN_1002&DEV_15D8&REV_D4
-"%AMD15D8.32%" = ati2mtag_PicassoAM4, PCI\VEN_1002&DEV_15D8&REV_DB
-"%AMD15D8.33%" = ati2mtag_PicassoAM4, PCI\VEN_1002&DEV_15D8&REV_DC
-"%AMD15D8.34%" = ati2mtag_PicassoAM4, PCI\VEN_1002&DEV_15D8&REV_DD
-"%AMD15D8.35%" = ati2mtag_Picasso, PCI\VEN_1002&DEV_15D8&REV_DE
-"%AMD15D8.36%" = ati2mtag_Picasso, PCI\VEN_1002&DEV_15D8&REV_DF
-"%AMD15D8.37%" = ati2mtag_Picasso, PCI\VEN_1002&DEV_15D8&REV_E4
-"%AMD15D8.38%" = ati2mtag_Picasso, PCI\VEN_1002&DEV_15D8&REV_E9
-"%AMD15D8.39%" = ati2mtag_Picasso, PCI\VEN_1002&DEV_15D8&REV_EB
+"%AMD15D8.24%" = ati2mtag_Picasso, PCI\VEN_1002&DEV_15D8&REV_C2
+"%AMD15D8.25%" = ati2mtag_Picasso, PCI\VEN_1002&DEV_15D8&REV_C3
+"%AMD15D8.26%" = ati2mtag_Picasso, PCI\VEN_1002&DEV_15D8&REV_C4
+"%AMD15D8.27%" = ati2mtag_Picasso, PCI\VEN_1002&DEV_15D8&REV_C5
+"%AMD15D8.28%" = ati2mtag_PicassoAM4, PCI\VEN_1002&DEV_15D8&REV_C8
+"%AMD15D8.29%" = ati2mtag_PicassoAM4, PCI\VEN_1002&DEV_15D8&REV_C9
+"%AMD15D8.30%" = ati2mtag_PicassoAM4, PCI\VEN_1002&DEV_15D8&REV_CA
+"%AMD15D8.31%" = ati2mtag_PicassoAM4, PCI\VEN_1002&DEV_15D8&REV_CB
+"%AMD15D8.32%" = ati2mtag_PicassoAM4, PCI\VEN_1002&DEV_15D8&REV_CC
+"%AMD15D8.33%" = ati2mtag_Picasso, PCI\VEN_1002&DEV_15D8&REV_CD
+"%AMD15D8.34%" = ati2mtag_Picasso, PCI\VEN_1002&DEV_15D8&REV_CE
+"%AMD15D8.35%" = ati2mtag_Picasso, PCI\VEN_1002&DEV_15D8&REV_CF
+"%AMD15D8.36%" = ati2mtag_Picasso, PCI\VEN_1002&DEV_15D8&REV_D1
+"%AMD15D8.37%" = ati2mtag_Picasso, PCI\VEN_1002&DEV_15D8&REV_D2
+"%AMD15D8.38%" = ati2mtag_Picasso, PCI\VEN_1002&DEV_15D8&REV_D3
+"%AMD15D8.39%" = ati2mtag_Picasso, PCI\VEN_1002&DEV_15D8&REV_D4
+"%AMD15D8.40%" = ati2mtag_PicassoAM4, PCI\VEN_1002&DEV_15D8&REV_D8
+"%AMD15D8.41%" = ati2mtag_PicassoAM4, PCI\VEN_1002&DEV_15D8&REV_D9
+"%AMD15D8.42%" = ati2mtag_PicassoAM4, PCI\VEN_1002&DEV_15D8&REV_DA
+"%AMD15D8.43%" = ati2mtag_PicassoAM4, PCI\VEN_1002&DEV_15D8&REV_DB
+"%AMD15D8.44%" = ati2mtag_PicassoAM4, PCI\VEN_1002&DEV_15D8&REV_DC
+"%AMD15D8.45%" = ati2mtag_PicassoAM4, PCI\VEN_1002&DEV_15D8&REV_DD
+"%AMD15D8.46%" = ati2mtag_Picasso, PCI\VEN_1002&DEV_15D8&REV_DE
+"%AMD15D8.47%" = ati2mtag_Picasso, PCI\VEN_1002&DEV_15D8&REV_DF
+"%AMD15D8.48%" = ati2mtag_Picasso, PCI\VEN_1002&DEV_15D8&REV_E4
+"%AMD15D8.49%" = ati2mtag_Picasso, PCI\VEN_1002&DEV_15D8&REV_E9
+"%AMD15D8.50%" = ati2mtag_Picasso, PCI\VEN_1002&DEV_15D8&REV_EB
 "%AMD15DD.1%" = ati2mtag_Raven, PCI\VEN_1002&DEV_15DD&SUBSYS_12331025&REV_C3
 "%AMD15DD.2%" = ati2mtag_Raven, PCI\VEN_1002&DEV_15DD&SUBSYS_12331025&REV_C4
 "%AMD15DD.3%" = ati2mtag_Raven, PCI\VEN_1002&DEV_15DD&SUBSYS_12331025&REV_C5
@@ -3879,7 +3890,7 @@ DelService = Ati External Event Utility
 AddService = AMD External Events Utility, 0x00000000, Ati2evxx_Generic_Service_Inst, Ati2evxx_EventLog_Inst, APPLICATION, ATIeRecord
 
 [ati2mtag_VegaM.Services]
-AddService = amdkmdag, 0x00000002, AMD_Service_Inst_Amethyst, R300_EventLog_Inst
+AddService = amdkmdag, 0x00000002, AMD_Service_Inst_VegaM, R300_EventLog_Inst
 DelService = Ati External Event Utility
 AddService = AMD External Events Utility, 0x00000000, Ati2evxx_Generic_Service_Inst, Ati2evxx_EventLog_Inst, APPLICATION, ATIeRecord
 
@@ -5035,39 +5046,39 @@ AddReg = atikmdag_MSI_HardwareDeviceSettings
 AddReg = atikmdag_MSI_HardwareDeviceSettings
 
 [ati2mtag_DSUMD]
-HKR,,OpenGLDriverName,%REG_MULTI_SZ%,%13%\B363860\atig6pxx.dll
-HKR,,UserModeDriverName,%REG_MULTI_SZ%,%13%\B363860\aticfx64.dll,%13%\B363860\aticfx64.dll,%13%\B363860\aticfx64.dll,%13%\B363860\amdxc64.dll
-HKR,,UserModeDriverNameWow,%REG_MULTI_SZ%,%13%\B363860\aticfx32.dll,%13%\B363860\aticfx32.dll,%13%\B363860\aticfx32.dll,%13%\B363860\amdxc32.dll
+HKR,,OpenGLDriverName,%REG_MULTI_SZ%,%13%\B364161\atig6pxx.dll
+HKR,,UserModeDriverName,%REG_MULTI_SZ%,%13%\B364161\aticfx64.dll,%13%\B364161\aticfx64.dll,%13%\B364161\aticfx64.dll,%13%\B364161\amdxc64.dll
+HKR,,UserModeDriverNameWow,%REG_MULTI_SZ%,%13%\B364161\aticfx32.dll,%13%\B364161\aticfx32.dll,%13%\B364161\aticfx32.dll,%13%\B364161\amdxc32.dll
 HKR,,ProxyLDA_Support,%REG_DWORD%,2
 HKR,,OpenGLDynamicPX,%REG_DWORD%,1
-HKR,,UserModeDListDriverName,%REG_SZ%,%13%\B363860\amdhdl64.dll
-HKR,,UserModeDListDriverNameWow,%REG_SZ%,%13%\B363860\amdhdl32.dll
-HKR,,OpenGLDriverNameWoW,%REG_MULTI_SZ%,%13%\B363860\atiglpxx.dll
-HKLM,"SOFTWARE\Khronos\OpenCL\Vendors","%13%\B363860\amdocl64.dll",%REG_DWORD%,0
-HKLM,"SOFTWARE\Wow6432Node\Khronos\OpenCL\Vendors","%13%\B363860\amdocl.dll",%REG_DWORD%,0
-HKR,,VulkanDriverName,%REG_SZ%,%13%\B363860\amd-vulkan64.json
-HKR,,VulkanImplicitLayers,%REG_SZ%,%13%\B363860\amd-vulkan64.json
-HKR,,VulkanDriverNameWow,%REG_SZ%,%13%\B363860\amd-vulkan32.json
-HKR,,VulkanImplicitLayersWow,%REG_SZ%,%13%\B363860\amd-vulkan32.json
-HKR,CopyToVmOverwrite,AMDOpenCL12,%REG_MULTI_SZ%,"B363860\amdocl12cl64.dll","amdocl12cl64.dll"
-HKR,CopyToVmOverwriteWow64,AMDOpenCL12,%REG_MULTI_SZ%,"B363860\amdocl12cl.dll","amdocl12cl.dll"
-HKR,CopyToVmOverwrite,AMDOpenCL,%REG_MULTI_SZ%,"B363860\amdocl64.dll","amdocl64.dll"
-HKR,CopyToVmOverwriteWow64,AMDOpenCL,%REG_MULTI_SZ%,"B363860\amdocl.dll","amdocl.dll"
-HKR,CopyToVmOverwrite,AMDOpenCLLoader,%REG_MULTI_SZ%,"B363860\amd_opencl64.dll","opencl.dll"
-HKR,CopyToVmOverwriteWow64,AMDOpenCLLoader,%REG_MULTI_SZ%,"B363860\amd_opencl32.dll","opencl.dll"
-HKR,,OpenGLVendorName,%REG_MULTI_SZ%,%13%\B363860\atio6axx.dll,%13%\B363860\atio6axx.dll
-HKR,,OpenGLVendorNameWoW,%REG_MULTI_SZ%,%13%\B363860\atioglxx.dll,%13%\B363860\atioglxx.dll
-HKR,CopyToVmOverwrite,AMDOpenGL,%REG_MULTI_SZ%,"B363860\atio6axx.dll","atio6axx.dll"
-HKR,CopyToVmOverwriteWow64,AMDOpenGL,%REG_MULTI_SZ%,"B363860\atioglxx.dll","atioglxx.dll"
+HKR,,UserModeDListDriverName,%REG_SZ%,%13%\B364161\amdhdl64.dll
+HKR,,UserModeDListDriverNameWow,%REG_SZ%,%13%\B364161\amdhdl32.dll
+HKR,,OpenGLDriverNameWoW,%REG_MULTI_SZ%,%13%\B364161\atiglpxx.dll
+HKLM,"SOFTWARE\Khronos\OpenCL\Vendors","%13%\B364161\amdocl64.dll",%REG_DWORD%,0
+HKLM,"SOFTWARE\Wow6432Node\Khronos\OpenCL\Vendors","%13%\B364161\amdocl.dll",%REG_DWORD%,0
+HKR,,VulkanDriverName,%REG_SZ%,%13%\B364161\amd-vulkan64.json
+HKR,,VulkanImplicitLayers,%REG_SZ%,%13%\B364161\amd-vulkan64.json
+HKR,,VulkanDriverNameWow,%REG_SZ%,%13%\B364161\amd-vulkan32.json
+HKR,,VulkanImplicitLayersWow,%REG_SZ%,%13%\B364161\amd-vulkan32.json
+HKR,CopyToVmOverwrite,AMDOpenCL12,%REG_MULTI_SZ%,"B364161\amdocl12cl64.dll","amdocl12cl64.dll"
+HKR,CopyToVmOverwriteWow64,AMDOpenCL12,%REG_MULTI_SZ%,"B364161\amdocl12cl.dll","amdocl12cl.dll"
+HKR,CopyToVmOverwrite,AMDOpenCL,%REG_MULTI_SZ%,"B364161\amdocl64.dll","amdocl64.dll"
+HKR,CopyToVmOverwriteWow64,AMDOpenCL,%REG_MULTI_SZ%,"B364161\amdocl.dll","amdocl.dll"
+HKR,CopyToVmOverwrite,AMDOpenCLLoader,%REG_MULTI_SZ%,"B364161\amd_opencl64.dll","opencl.dll"
+HKR,CopyToVmOverwriteWow64,AMDOpenCLLoader,%REG_MULTI_SZ%,"B364161\amd_opencl32.dll","opencl.dll"
+HKR,,OpenGLVendorName,%REG_MULTI_SZ%,%13%\B364161\atio6axx.dll,%13%\B364161\atio6axx.dll
+HKR,,OpenGLVendorNameWoW,%REG_MULTI_SZ%,%13%\B364161\atioglxx.dll,%13%\B364161\atioglxx.dll
+HKR,CopyToVmOverwrite,AMDOpenGL,%REG_MULTI_SZ%,"B364161\atio6axx.dll","atio6axx.dll"
+HKR,CopyToVmOverwriteWow64,AMDOpenGL,%REG_MULTI_SZ%,"B364161\atioglxx.dll","atioglxx.dll"
 
 [ati2mtag_DSUMD_common]
-HKR,,D3DVendorName,%REG_MULTI_SZ%,%13%\B363860\atiumd64.dll,%13%\B363860\atiumd64.dll,%13%\B363860\atidxx64.dll,%13%\B363860\atidxx64.dll
-HKR,,D3DVendorNameWoW,%REG_MULTI_SZ%,%13%\B363860\atiumdag.dll,%13%\B363860\atiumdag.dll,%13%\B363860\atidxx32.dll,%13%\B363860\atidxx32.dll
+HKR,,D3DVendorName,%REG_MULTI_SZ%,%13%\B364161\atiumd64.dll,%13%\B364161\atiumd64.dll,%13%\B364161\atidxx64.dll,%13%\B364161\atidxx64.dll
+HKR,,D3DVendorNameWoW,%REG_MULTI_SZ%,%13%\B364161\atiumdag.dll,%13%\B364161\atiumdag.dll,%13%\B364161\atidxx32.dll,%13%\B364161\atidxx32.dll
 HKR,,InstalledDisplayDrivers,%REG_MULTI_SZ%,aticfx64,aticfx64,aticfx64,amdxc64,aticfx32,aticfx32,aticfx32,amdxc32,atiumd64,atidxx64,atidxx64,atiumdag,atidxx32,atidxx32,atiumdva,atiumd6a
 
 [ati2mtag_DSUMD_GFX10Plus]
-HKR,,D3DVendorName,%REG_MULTI_SZ%,%13%\B363860\amdxn64.dll,%13%\B363860\amdxn64.dll,%13%\B363860\atidxx64.dll,%13%\B363860\atidxx64.dll
-HKR,,D3DVendorNameWoW,%REG_MULTI_SZ%,%13%\B363860\amdxn32.dll,%13%\B363860\amdxn32.dll,%13%\B363860\atidxx32.dll,%13%\B363860\atidxx32.dll
+HKR,,D3DVendorName,%REG_MULTI_SZ%,%13%\B364161\amdxn64.dll,%13%\B364161\amdxn64.dll,%13%\B364161\atidxx64.dll,%13%\B364161\atidxx64.dll
+HKR,,D3DVendorNameWoW,%REG_MULTI_SZ%,%13%\B364161\amdxn32.dll,%13%\B364161\amdxn32.dll,%13%\B364161\atidxx32.dll,%13%\B364161\atidxx32.dll
 HKR,,InstalledDisplayDrivers,%REG_MULTI_SZ%,aticfx64,aticfx64,aticfx64,amdxc64,aticfx32,aticfx32,aticfx32,amdxc32,amdxn64,atidxx64,atidxx64,amdxn32,atidxx32,atidxx32,atiumdva,atiumd6a
 
 
@@ -5974,7 +5985,6 @@ HKR,"UMD\DXVA",W7VideoExperience_NA,%REG_SZ%,0
 HKR,,ShowRSOverlay,%REG_SZ%,false
 HKR,"UMD\DXVA",EnableHLGSupport,%REG_SZ%,1
 HKR,"UMD\DXVA",EnableHDRLUT,%REG_SZ%,1
-HKR,UMD,GLPBMode_DEF,%REG_SZ%,0
 HKR,,GIBenchmark,%REG_DWORD%,0
 HKR,,GamePerformanceAdviserEnabled,%REG_DWORD%,0
 HKR,,RSOptimizer_NA,%REG_DWORD%,1
@@ -9180,8 +9190,8 @@ HKR,,VgaCompatible,%REG_DWORD%,0
 HKR,,"Adaptive De-interlacing",%REG_DWORD%,1
 HKR,,"VPE Adaptive De-interlacing",%REG_DWORD%,1
 HKR,,GCOOPTION_DisableGPIOPowerSaveMode,%REG_DWORD%,1
-HKLM,"Software\ATI Technologies\CBT",ReleaseVersion,,"20.45.35.01-210204a-364033E-RadeonSoftwareAdrenalin2020"
-HKR,,ReleaseVersion,,"20.45.35.01-210204a-364033E-RadeonSoftwareAdrenalin2020"
+HKLM,"Software\ATI Technologies\CBT",ReleaseVersion,,"20.45.35.03-210217a-364232E-RadeonSoftwareAdrenalin2020"
+HKR,,ReleaseVersion,,"20.45.35.03-210217a-364232E-RadeonSoftwareAdrenalin2020"
 HKR,,BuildNumber,,"09700"
 HKR,,UserModeDriverGUID,%REG_SZ%,{"4242B984-6C36-4FC8-8626-DE5E8B11886D"}
 HKR,,DALGameGammaScale,%REG_DWORD%,0x00646464
@@ -9327,7 +9337,7 @@ HKCR,"CLSID\{5E2121EE-0300-11D4-8D3B-444553540000}\VersionIndependentProgID",,,"
 HKCR,"Directory\Background\shellex\ContextMenuHandlers\ACE",,,"{5E2121EE-0300-11D4-8D3B-444553540000}"
 HKCR,"SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved",{5E2121EE-0300-11D4-8D3B-444553540000},,"Catalyst Context Menu extension"
 HKR,,RadeonSoftwareEdition,,"Adrenalin 2020"
-HKR,,RadeonSoftwareVersion,,"21.2.2"
+HKR,,RadeonSoftwareVersion,,"21.2.3"
 
 [atikmdag_MSI_HardwareDeviceSettings]
 HKR,"Interrupt Management\MessageSignaledInterruptProperties",MSISupported,0x00010001,1
@@ -10096,7 +10106,7 @@ MaximumDeviceMemoryConfiguration=128
 MaximumNumberOfDevices=4
 
 [SourceDisksNames.amd64]
-1 = %DiskId%,,,.\B363860
+1 = %DiskId%,,,.\B364161
 
 [SourceDisksFiles]
 amdkmdag.sys=1
@@ -10578,22 +10588,33 @@ AMD15D8.20 = "AMD Radeon(TM) Vega 3 Graphics"
 AMD15D8.21 = "AMD Radeon(TM) Graphics"
 AMD15D8.22 = "AMD Radeon(TM) Graphics"
 AMD15D8.23 = "AMD Radeon(TM) RX Vega 10 Graphics"
-AMD15D8.24 = "AMD Radeon(TM) Vega 3 Graphics"
-AMD15D8.25 = "AMD Radeon(TM) Vega 8 Graphics"
+AMD15D8.24 = "AMD Radeon(TM) Vega 8 Graphics"
+AMD15D8.25 = "AMD Radeon(TM) Vega 6 Graphics"
 AMD15D8.26 = "AMD Radeon(TM) Vega 3 Graphics"
-AMD15D8.27 = "AMD Radeon(TM) Graphics"
-AMD15D8.28 = "AMD Radeon(TM) Vega 3 Graphics"
-AMD15D8.29 = "AMD Radeon(TM) Vega 3 Graphics"
-AMD15D8.30 = "AMD Radeon(TM) Vega 10 Graphics"
-AMD15D8.31 = "AMD Radeon(TM) Vega 3 Graphics"
-AMD15D8.32 = "AMD Radeon(TM) Vega 8 Graphics"
-AMD15D8.33 = "AMD Radeon(TM) Vega 3 Graphics"
+AMD15D8.27 = "AMD Radeon(TM) Vega 3 Graphics"
+AMD15D8.28 = "AMD Radeon(TM) RX Vega 11 Graphics"
+AMD15D8.29 = "AMD Radeon(TM) Vega 8 Graphics"
+AMD15D8.30 = "AMD Radeon(TM) RX Vega 11 Graphics"
+AMD15D8.31 = "AMD Radeon(TM) Vega 8 Graphics"
+AMD15D8.32 = "AMD Radeon(TM) Vega 3 Graphics"
+AMD15D8.33 = "AMD Radeon(TM) Graphics"
 AMD15D8.34 = "AMD Radeon(TM) Vega 3 Graphics"
 AMD15D8.35 = "AMD Radeon(TM) Vega 3 Graphics"
-AMD15D8.36 = "AMD Radeon(TM) Vega 3 Graphics"
-AMD15D8.37 = "AMD Radeon(TM) Vega 3 Graphics"
-AMD15D8.38 = "AMD Radeon(TM) Graphics"
-AMD15D8.39 = "AMD Radeon(TM) Graphics"
+AMD15D8.36 = "AMD Radeon(TM) Vega 10 Graphics"
+AMD15D8.37 = "AMD Radeon(TM) Vega 8 Graphics"
+AMD15D8.38 = "AMD Radeon(TM) Vega 6 Graphics"
+AMD15D8.39 = "AMD Radeon(TM) Vega 3 Graphics"
+AMD15D8.40 = "AMD Radeon(TM) Vega 11 Graphics"
+AMD15D8.41 = "AMD Radeon(TM) Vega 8 Graphics"
+AMD15D8.42 = "AMD Radeon(TM) Vega 11 Graphics"
+AMD15D8.43 = "AMD Radeon(TM) Vega 8 Graphics"
+AMD15D8.44 = "AMD Radeon(TM) Vega 3 Graphics"
+AMD15D8.45 = "AMD Radeon(TM) Vega 3 Graphics"
+AMD15D8.46 = "AMD Radeon(TM) Vega 3 Graphics"
+AMD15D8.47 = "AMD Radeon(TM) Vega 3 Graphics"
+AMD15D8.48 = "AMD Radeon(TM) Vega 3 Graphics"
+AMD15D8.49 = "AMD Radeon(TM) Graphics"
+AMD15D8.50 = "AMD Radeon(TM) Graphics"
 AMD15DD.1 = "AMD Radeon(TM) RX Vega 10 Graphics"
 AMD15DD.2 = "AMD Radeon(TM) Vega 8 Graphics"
 AMD15DD.3 = "AMD Radeon(TM) Vega 3 Graphics"
@@ -11703,7 +11724,7 @@ DSEManager.exe,,,0x00004000
 ServiceType = 0x10
 StartType = 2
 ErrorControl = 1
-ServiceBinary = %13%\B363860\atiesrxx.exe
+ServiceBinary = %13%\B364161\atiesrxx.exe
 LoadOrderGroup = Event log
 
 [ati2mtag_ServiceSettings]
@@ -11715,7 +11736,7 @@ StartType = 3
 ErrorControl = 0
 LoadOrderGroup = Video
 AddReg = ati2mtag_ServiceSettings
-ServiceBinary = %13%\B363860\amdkmdag.sys
+ServiceBinary = %13%\B364161\amdkmdag.sys
 
 [ATI.Mfg.NTamd64.6.0.1]
 
@@ -11771,22 +11792,33 @@ ServiceBinary = %13%\B363860\amdkmdag.sys
 "%AMD15D8.21%" = ati2mtag_PicassoDS, PCI\VEN_1002&DEV_15D8&REV_94
 "%AMD15D8.22%" = ati2mtag_PicassoDS, PCI\VEN_1002&DEV_15D8&REV_95
 "%AMD15D8.23%" = ati2mtag_PicassoDS, PCI\VEN_1002&DEV_15D8&REV_C1
-"%AMD15D8.24%" = ati2mtag_PicassoDS, PCI\VEN_1002&DEV_15D8&REV_C5
-"%AMD15D8.25%" = ati2mtag_PicassoAM4DS, PCI\VEN_1002&DEV_15D8&REV_CB
-"%AMD15D8.26%" = ati2mtag_PicassoAM4DS, PCI\VEN_1002&DEV_15D8&REV_CC
-"%AMD15D8.27%" = ati2mtag_PicassoDS, PCI\VEN_1002&DEV_15D8&REV_CD
-"%AMD15D8.28%" = ati2mtag_PicassoDS, PCI\VEN_1002&DEV_15D8&REV_CE
-"%AMD15D8.29%" = ati2mtag_PicassoDS, PCI\VEN_1002&DEV_15D8&REV_CF
-"%AMD15D8.30%" = ati2mtag_PicassoDS, PCI\VEN_1002&DEV_15D8&REV_D1
-"%AMD15D8.31%" = ati2mtag_PicassoDS, PCI\VEN_1002&DEV_15D8&REV_D4
-"%AMD15D8.32%" = ati2mtag_PicassoAM4DS, PCI\VEN_1002&DEV_15D8&REV_DB
-"%AMD15D8.33%" = ati2mtag_PicassoAM4DS, PCI\VEN_1002&DEV_15D8&REV_DC
-"%AMD15D8.34%" = ati2mtag_PicassoAM4DS, PCI\VEN_1002&DEV_15D8&REV_DD
-"%AMD15D8.35%" = ati2mtag_PicassoDS, PCI\VEN_1002&DEV_15D8&REV_DE
-"%AMD15D8.36%" = ati2mtag_PicassoDS, PCI\VEN_1002&DEV_15D8&REV_DF
-"%AMD15D8.37%" = ati2mtag_PicassoDS, PCI\VEN_1002&DEV_15D8&REV_E4
-"%AMD15D8.38%" = ati2mtag_PicassoDS, PCI\VEN_1002&DEV_15D8&REV_E9
-"%AMD15D8.39%" = ati2mtag_PicassoDS, PCI\VEN_1002&DEV_15D8&REV_EB
+"%AMD15D8.24%" = ati2mtag_PicassoDS, PCI\VEN_1002&DEV_15D8&REV_C2
+"%AMD15D8.25%" = ati2mtag_PicassoDS, PCI\VEN_1002&DEV_15D8&REV_C3
+"%AMD15D8.26%" = ati2mtag_PicassoDS, PCI\VEN_1002&DEV_15D8&REV_C4
+"%AMD15D8.27%" = ati2mtag_PicassoDS, PCI\VEN_1002&DEV_15D8&REV_C5
+"%AMD15D8.28%" = ati2mtag_PicassoAM4DS, PCI\VEN_1002&DEV_15D8&REV_C8
+"%AMD15D8.29%" = ati2mtag_PicassoAM4DS, PCI\VEN_1002&DEV_15D8&REV_C9
+"%AMD15D8.30%" = ati2mtag_PicassoAM4DS, PCI\VEN_1002&DEV_15D8&REV_CA
+"%AMD15D8.31%" = ati2mtag_PicassoAM4DS, PCI\VEN_1002&DEV_15D8&REV_CB
+"%AMD15D8.32%" = ati2mtag_PicassoAM4DS, PCI\VEN_1002&DEV_15D8&REV_CC
+"%AMD15D8.33%" = ati2mtag_PicassoDS, PCI\VEN_1002&DEV_15D8&REV_CD
+"%AMD15D8.34%" = ati2mtag_PicassoDS, PCI\VEN_1002&DEV_15D8&REV_CE
+"%AMD15D8.35%" = ati2mtag_PicassoDS, PCI\VEN_1002&DEV_15D8&REV_CF
+"%AMD15D8.36%" = ati2mtag_PicassoDS, PCI\VEN_1002&DEV_15D8&REV_D1
+"%AMD15D8.37%" = ati2mtag_PicassoDS, PCI\VEN_1002&DEV_15D8&REV_D2
+"%AMD15D8.38%" = ati2mtag_PicassoDS, PCI\VEN_1002&DEV_15D8&REV_D3
+"%AMD15D8.39%" = ati2mtag_PicassoDS, PCI\VEN_1002&DEV_15D8&REV_D4
+"%AMD15D8.40%" = ati2mtag_PicassoAM4DS, PCI\VEN_1002&DEV_15D8&REV_D8
+"%AMD15D8.41%" = ati2mtag_PicassoAM4DS, PCI\VEN_1002&DEV_15D8&REV_D9
+"%AMD15D8.42%" = ati2mtag_PicassoAM4DS, PCI\VEN_1002&DEV_15D8&REV_DA
+"%AMD15D8.43%" = ati2mtag_PicassoAM4DS, PCI\VEN_1002&DEV_15D8&REV_DB
+"%AMD15D8.44%" = ati2mtag_PicassoAM4DS, PCI\VEN_1002&DEV_15D8&REV_DC
+"%AMD15D8.45%" = ati2mtag_PicassoAM4DS, PCI\VEN_1002&DEV_15D8&REV_DD
+"%AMD15D8.46%" = ati2mtag_PicassoDS, PCI\VEN_1002&DEV_15D8&REV_DE
+"%AMD15D8.47%" = ati2mtag_PicassoDS, PCI\VEN_1002&DEV_15D8&REV_DF
+"%AMD15D8.48%" = ati2mtag_PicassoDS, PCI\VEN_1002&DEV_15D8&REV_E4
+"%AMD15D8.49%" = ati2mtag_PicassoDS, PCI\VEN_1002&DEV_15D8&REV_E9
+"%AMD15D8.50%" = ati2mtag_PicassoDS, PCI\VEN_1002&DEV_15D8&REV_EB
 "%AMD15DD.1%" = ati2mtag_RavenDS, PCI\VEN_1002&DEV_15DD&SUBSYS_12331025&REV_C3
 "%AMD15DD.2%" = ati2mtag_RavenDS, PCI\VEN_1002&DEV_15DD&SUBSYS_12331025&REV_C4
 "%AMD15DD.3%" = ati2mtag_RavenDS, PCI\VEN_1002&DEV_15DD&SUBSYS_12331025&REV_C5
