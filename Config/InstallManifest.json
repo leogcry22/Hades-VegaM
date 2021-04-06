@@ -4,23 +4,23 @@
       "Beta64buildpath" : "",
       "BetaReleaseNotes" : "",
       "Betaversion" : "",
-      "BuildVersion" : "20.45.35.03-210217a-364232E-RadeonSoftwareAdrenalin2020",
+      "BuildVersion" : "20.50.03.01-210310a-365275C-RadeonSoftwareAdrenalin2020",
       "DGPUWorkaround" : "true",
       "EGNIkbArtLink" : "http://support.amd.com/en-us/kb-articles/Pages/Driver-Install-Upgrade-Case.aspx",
       "EnableAnalyticTracking" : "false",
       "EnableAnalytics" : "true",
       "EnableDVRTracking" : "true",
       "EnableHWCustomSettings" : "true",
-      "ExternalVersion" : "21.2.3",
+      "ExternalVersion" : "21.3.1",
       "MinBuildPath" : "",
       "OEM" : "",
       "OneClickEligible" : "true",
       "RadeonSoftwareEdition" : "Adrenalin 2020",
-      "RadeonSoftwareVersion" : "21.2.3",
+      "RadeonSoftwareVersion" : "21.3.1",
       "ReleaseNotes" : "",
       "UEITracking" : "true",
       "UseCustomSettings" : "true",
-      "Version" : "20.45.35.03-210217a-364232E-RadeonSoftwareAdrenalin2020",
+      "Version" : "20.50.03.01-210310a-365275C-RadeonSoftwareAdrenalin2020",
       "WebBrowserURL" : "AMD",
       "WorkaroundInstall" : "false"
    },
@@ -28,44 +28,8 @@
       "Package" : [
          {
             "Info" : {
-               "Description" : "AMD Settings Branding",
-               "InstallByDefault" : "Yes",
-               "Installfile" : "CNBranding64.msi",
-               "NoUninstallSupport" : "Yes",
-               "PID" : "W-10-0U03-000-002-194-001-00-25",
-               "ProductGUID" : "{856DA29A-EA4A-468B-BBC2-B5F60DD75BFE}",
-               "ProductUpgradeGUID" : "{D72F6448-DD07-4DD4-A34B-F224A5106D9C}",
-               "UninstallSupported" : "Yes",
-               "bDowngrade" : "Yes",
-               "bdisplayProductName" : "true",
-               "productName" : "Branding64",
-               "ptype" : "MSI",
-               "url" : "Apps\\CNBranding\\CNBranding64.msi",
-               "version" : "1.00.0003"
-            },
-            "Install" : {
-               "CmdParameters" : "REBOOT=ReallySuppress",
-               "Conditions" : {
-                  "DependencyCheck" : [
-                     "*:*:W-10-0U01-000-002-192-001-00-25:*"
-                  ],
-                  "HWCheck" : [],
-                  "HWExclude" : [],
-                  "OSCheck" : [
-                     "*-*-10.0-Yes-*-*",
-                     "*-*-6.1-Yes-*-*",
-                     "*-*-6.3-Yes-*-*"
-                  ]
-               },
-               "Order" : "612",
-               "pAlgo" : "",
-               "pRetryAlgo" : ""
-            }
-         },
-         {
-            "Info" : {
                "Description" : "Display driver for Windows 10",
-               "DrivePackageInffile" : "C0364232.INF",
+               "DrivePackageInffile" : "C0365275.INF",
                "FriendProductUpgradeGUID" : [
                   "{E5846BD2-7506-474F-9F0B-2AF75DBA6268}",
                   "{3C909021-C40E-489B-9C1F-6C046683FCD7}",
@@ -90,9 +54,9 @@
                "packageSize" : "90",
                "productName" : "AMD Display Driver",
                "ptype" : "DRIVER",
-               "universalinf" : "U0364232.INF",
-               "url" : "Drivers\\Display\\WT6A_INF\\C0364232.INF",
-               "version" : "27.20.14535.3005"
+               "universalinf" : "U0365275.INF",
+               "url" : "Drivers\\Display\\WT6A_INF\\C0365275.INF",
+               "version" : "27.20.15003.1004"
             },
             "Install" : {
                "CmdParameters" : "Force DevPresent",
@@ -310,10 +274,22 @@
                      "*-0x1636-*-0x1002-*-*-*-0xDC",
                      "*-0x1636-*-0x1002-*-*-*-0xDD",
                      "*-0x1636-*-0x1002-*-*-*-0xF0",
+                     "*-0x1638-*-0x1002-*-*-*-0xC1",
+                     "*-0x1638-*-0x1002-*-*-*-0xC2",
+                     "*-0x1638-*-0x1002-*-*-*-0xC3",
                      "*-0x1638-*-0x1002-*-*-*-0xC4",
                      "*-0x1638-*-0x1002-*-*-*-0xC5",
                      "*-0x1638-*-0x1002-*-*-*-0xC6",
                      "*-0x1638-*-0x1002-*-*-*-0xC7",
+                     "*-0x1638-*-0x1002-*-*-*-0xD1",
+                     "*-0x1638-*-0x1002-*-*-*-0xD2",
+                     "*-0x1638-*-0x1002-*-*-*-0xD3",
+                     "*-0x1638-*-0x1002-*-*-*-0xD4",
+                     "*-0x1638-*-0x1002-*-*-*-0xD5",
+                     "*-0x1638-*-0x1002-*-*-*-0xD6",
+                     "*-0x164C-*-0x1002-*-*-*-0xC1",
+                     "*-0x164C-*-0x1002-*-*-*-0xC2",
+                     "*-0x164C-*-0x1002-*-*-*-0xC3",
                      "*-0x6600-*-0x1002-*-*-*-0x00",
                      "*-0x6600-*-0x1002-*-*-*-0x81",
                      "*-0x6601-0x2100-0x1002-0x103C-*-*-*",
@@ -1155,9 +1131,12 @@
                      "*-0x7340-*-0x1002-*-*-*-0xC7",
                      "*-0x7340-*-0x1002-*-*-*-0xCF",
                      "*-0x7341-*-0x1002-*-*-*-0x00",
+                     "*-0x73AF-*-0x1002-*-*-*-0xC0",
                      "*-0x73BF-*-0x1002-*-*-*-0xC0",
                      "*-0x73BF-*-0x1002-*-*-*-0xC1",
                      "*-0x73BF-*-0x1002-*-*-*-0xC3",
+                     "*-0x73DF-*-0x1002-*-*-*-0xC1",
+                     "*-0x73DF-*-0x1002-*-*-*-0xC5",
                      "*-0x9830-*-0x1002-*-*-*-*",
                      "*-0x9832-*-0x1002-*-*-*-*",
                      "*-0x9834-*-0x1002-*-*-*-*",
@@ -1246,7 +1225,6 @@
                      "*-0x98E4-*-0x1002-*-*-*-0xD4",
                      "*-0x98E4-*-0x1002-*-*-*-0xD9",
                      "*-0x98E4-*-0x1002-*-*-*-0xDA",
-                     "*-0x98E4-*-0x1002-*-*-*-0xDB",
                      "*-0x98E4-*-0x1002-*-*-*-0xE1",
                      "*-0x98E4-*-0x1002-*-*-*-0xE2",
                      "*-0x98E4-*-0x1002-*-*-*-0xE9",
@@ -1281,7 +1259,7 @@
                "ptype" : "DRIVER",
                "universalinf" : "<UNIVERSALINFNAME>",
                "url" : "Drivers\\Audio\\ACPBus\\WT64A\\amdacpbus.INF",
-               "version" : "2.89.0.78"
+               "version" : "2.89.0.82"
             },
             "Install" : {
                "CmdParameters" : "force DevPresent",
@@ -1467,7 +1445,7 @@
                "Installfile" : "AUEP64.msi",
                "NoUninstallSupport" : "Yes",
                "PID" : "W-06-1U00-000-002-227-001-00-25",
-               "ProductGUID" : "{D7BC34CD-C657-4151-95D6-D4CE7A66387F}",
+               "ProductGUID" : "{09137CA1-9061-4F4E-B876-923B52E327C6}",
                "ProductUpgradeGUID" : "{14FF974F-1802-43D4-B8FE-78AF51D911D6}",
                "UninstallSupported" : "Yes",
                "bDowngrade" : "Yes",
@@ -1476,7 +1454,7 @@
                "productName" : "AMD User Experience Program Installer",
                "ptype" : "MSI",
                "url" : "Apps\\AUEP64\\AUEP64.msi",
-               "version" : "2045.35.03.217"
+               "version" : "2050.03.01.310"
             },
             "Install" : {
                "CmdParameters" : "REBOOT=ReallySuppress ARPSYSTEMCOMPONENT=1",
@@ -1692,10 +1670,22 @@
                      "*-0x1636 - * - 0x1002 - * - *-*-0xDC-",
                      "*-0x1636 - * - 0x1002 - * - *-*-0xDD-",
                      "*-0x1636 - * - 0x1002 - * - *-*-0xF0-",
+                     "*-0x1638 - * - 0x1002 - * - *-*-0xC1-",
+                     "*-0x1638 - * - 0x1002 - * - *-*-0xC2-",
+                     "*-0x1638 - * - 0x1002 - * - *-*-0xC3-",
                      "*-0x1638 - * - 0x1002 - * - *-*-0xC4-",
                      "*-0x1638 - * - 0x1002 - * - *-*-0xC5-",
                      "*-0x1638 - * - 0x1002 - * - *-*-0xC6-",
                      "*-0x1638 - * - 0x1002 - * - *-*-0xC7-",
+                     "*-0x1638 - * - 0x1002 - * - *-*-0xD1-",
+                     "*-0x1638 - * - 0x1002 - * - *-*-0xD2-",
+                     "*-0x1638 - * - 0x1002 - * - *-*-0xD3-",
+                     "*-0x1638 - * - 0x1002 - * - *-*-0xD4-",
+                     "*-0x1638 - * - 0x1002 - * - *-*-0xD5-",
+                     "*-0x1638 - * - 0x1002 - * - *-*-0xD6-",
+                     "*-0x164C - * - 0x1002 - * - *-*-0xC1-",
+                     "*-0x164C - * - 0x1002 - * - *-*-0xC2-",
+                     "*-0x164C - * - 0x1002 - * - *-*-0xC3-",
                      "*-0x6600 - * - 0x1002 - * - *-*-0x00-",
                      "*-0x6600 - * - 0x1002 - * - *-*-0x81-",
                      "*-0x6601 - 0x2100 - 0x1002 - 0x103C - *-*-*-",
@@ -2537,9 +2527,12 @@
                      "*-0x7340 - * - 0x1002 - * - *-*-0xC7-",
                      "*-0x7340 - * - 0x1002 - * - *-*-0xCF-",
                      "*-0x7341 - * - 0x1002 - * - *-*-0x00-",
+                     "*-0x73AF - * - 0x1002 - * - *-*-0xC0-",
                      "*-0x73BF - * - 0x1002 - * - *-*-0xC0-",
                      "*-0x73BF - * - 0x1002 - * - *-*-0xC1-",
                      "*-0x73BF - * - 0x1002 - * - *-*-0xC3-",
+                     "*-0x73DF - * - 0x1002 - * - *-*-0xC1-",
+                     "*-0x73DF - * - 0x1002 - * - *-*-0xC5-",
                      "*-0x9830 - * - 0x1002 - * - *-*-*-",
                      "*-0x9832 - * - 0x1002 - * - *-*-*-",
                      "*-0x9834 - * - 0x1002 - * - *-*-*-",
@@ -2628,7 +2621,6 @@
                      "*-0x98E4 - * - 0x1002 - * - *-*-0xD4-",
                      "*-0x98E4 - * - 0x1002 - * - *-*-0xD9-",
                      "*-0x98E4 - * - 0x1002 - * - *-*-0xDA-",
-                     "*-0x98E4 - * - 0x1002 - * - *-*-0xDB-",
                      "*-0x98E4 - * - 0x1002 - * - *-*-0xE1-",
                      "*-0x98E4 - * - 0x1002 - * - *-*-0xE2-",
                      "*-0x98E4 - * - 0x1002 - * - *-*-0xE9-",
@@ -2665,7 +2657,7 @@
                "ptype" : "DRIVER",
                "universalinf" : "<UNIVERSALINFNAME>",
                "url" : "Drivers\\Audio\\HDMI\\WT64A\\AtihdWT6.INF",
-               "version" : "10.0.1.16"
+               "version" : "10.0.1.18"
             },
             "Install" : {
                "CmdParameters" : "Force DevPresent",
@@ -2725,7 +2717,7 @@
                "ptype" : "DRIVER",
                "universalinf" : "<UNIVERSALINFNAME>",
                "url" : "Drivers\\Audio\\ACPAfd\\WT64A\\amdacpafd.INF",
-               "version" : "2.0.0.52"
+               "version" : "2.0.0.55"
             },
             "Install" : {
                "CmdParameters" : " ",
@@ -2834,7 +2826,7 @@
                "Installfile" : "RadeonLED.msi",
                "NoUninstallSupport" : "Yes",
                "PID" : "W-00-0000-000-002-229-001-00-25",
-               "ProductGUID" : "{D6DD0A27-136C-454E-9332-CC528C17BCCA}",
+               "ProductGUID" : "{5C36F64A-A074-4EC7-9F9D-63FDC4839665}",
                "ProductUpgradeGUID" : "{5D33C7EA-5F00-4287-A2C4-146E3E64D469}",
                "UninstallSupported" : "Yes",
                "bDowngrade" : "Yes",
@@ -2861,6 +2853,42 @@
                   ]
                },
                "Order" : "800",
+               "pAlgo" : "",
+               "pRetryAlgo" : ""
+            }
+         },
+         {
+            "Info" : {
+               "Description" : "AMD Settings Branding",
+               "InstallByDefault" : "Yes",
+               "Installfile" : "CNBranding64.msi",
+               "NoUninstallSupport" : "Yes",
+               "PID" : "W-10-0U03-000-002-194-001-00-25",
+               "ProductGUID" : "{856DA29A-EA4A-468B-BBC2-B5F60DD75BFE}",
+               "ProductUpgradeGUID" : "{D72F6448-DD07-4DD4-A34B-F224A5106D9C}",
+               "UninstallSupported" : "Yes",
+               "bDowngrade" : "Yes",
+               "bdisplayProductName" : "true",
+               "productName" : "Branding64",
+               "ptype" : "MSI",
+               "url" : "Apps\\CNBranding\\CNBranding64.msi",
+               "version" : "1.00.0003"
+            },
+            "Install" : {
+               "CmdParameters" : "REBOOT=ReallySuppress",
+               "Conditions" : {
+                  "DependencyCheck" : [
+                     "*:*:W-10-0U01-000-002-192-001-00-25:*"
+                  ],
+                  "HWCheck" : [],
+                  "HWExclude" : [],
+                  "OSCheck" : [
+                     "*-*-10.0-Yes-*-*",
+                     "*-*-6.1-Yes-*-*",
+                     "*-*-6.3-Yes-*-*"
+                  ]
+               },
+               "Order" : "612",
                "pAlgo" : "",
                "pRetryAlgo" : ""
             }
