@@ -1,4 +1,6 @@
-简体中文 | [English](./README.md)
+# Hades-VegaM
+
+中文README | [English](./README.md)
 
 ## 介绍
 
@@ -21,11 +23,11 @@
 
 ### 安装
 
-运行程序之前请确保已禁用驱动程序强制签名即可按照正常流程进行安装，或直接参考我的[知乎教程](https://zhuanlan.zhihu.com/p/333841073)。
+运行之前请确保已经禁用驱动程序强制签名即可按照正常流程进行安装升级，或直接参考我的[知乎教程](https://zhuanlan.zhihu.com/p/333841073)。
 
 ### 支持的硬件
 
-* [x] 英特尔NUC8i7HNK/NUC8i7HVK冥王峡谷
+* [x] 英特尔NUC冥王峡谷（NUC8i7HNK/NUC8i7HVK）
 * [x] 戴尔XPS 15 9575 2-in-1
 * [x] 戴尔Precision 5530 2-in-1
 * [x] 宏碁Aspire 7

@@ -1,4 +1,6 @@
-English | [简体中文](./README.zh-CN.md)
+# Hades-VegaM
+
+English | [中文README](./README.zh-CN.md)
 
 ## Overview
 
@@ -21,15 +23,13 @@ English | [简体中文](./README.zh-CN.md)
 
 ### Install
 
-Just make sure disable driver signature enforcement beforce install this.
+Just make sure disable driver signature enforcement beforce install or update this.
 
-Simple Guide:
-
-[How to Disable Driver Signature Verification on 64-Bit Windows](https://www.howtogeek.com/167723/how-to-disable-driver-signature-verification-on-64-bit-windows-8.1-so-that-you-can-install-unsigned-drivers/)
+Simple Guide: [How to Disable Driver Signature Verification on 64-Bit Windows](https://www.howtogeek.com/167723/how-to-disable-driver-signature-verification-on-64-bit-windows-8.1-so-that-you-can-install-unsigned-drivers/)
 
 ### Working Hardware
 
-* [x] Intel NUC8i7HNK/NUC8i7HVK Hades Canyon
+* [x] Intel NUC Hades Canyon (NUC8i7HNK/NUC8i7HVK)
 * [x] Dell XPS 15 9575 2-in-1
 * [x] Dell Precision 5530 2-in-1
 * [x] Acer Aspire 7
