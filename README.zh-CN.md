@@ -1,7 +1,7 @@
 # Hades-VegaM
 
 <p align="center">
-    <img src="Screenshots/vegam.png"/>
+    <img width="150px" src="Screenshots/vegam.png"/>
 </p>
 
 中文README | [English](./README.md)
@@ -40,14 +40,14 @@
 
 ### 支持的功能
 
-* [x] 新游戏优化(可能吧)
+* [x] 新游戏优化（可能，不太确定）
 * [x] AMD Link
 * [x] AMD Bug Report Tool
 * [x] 新的Vulkan扩展
 * [x] Radeon Boost新游戏支持
 * [x] 新的Radeon Software功能选项
 * [x] AMD Crash Defender
-* [x] AMD FidelityFX超采样 (FSR)
+* [x] AMD FidelityFX超采样（FSR）
 * [x] Bug修复
 
 ### 不工作/Bug

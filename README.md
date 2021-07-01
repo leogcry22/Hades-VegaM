@@ -1,7 +1,7 @@
 # Hades-VegaM
 
 <p align="center">
-    <img src="Screenshots/vegam.png"/>
+    <img width="150px" src="Screenshots/vegam.png"/>
 </p>
 
 English | [中文README](./README.zh-CN.md)
@@ -27,11 +27,9 @@ Hacked the latest AMD graphics driver to bring back support for abandoned Kaby L
 
 ### Install
 
-Just make sure disable driver signature enforcement beforce install or update this driver.
+Just make sure disable driver signature enforcement beforce install or update this.
 
-#### Guide 
-
-[How to Disable Driver Signature Verification on 64-Bit Windows](https://www.howtogeek.com/167723/how-to-disable-driver-signature-verification-on-64-bit-windows-8.1-so-that-you-can-install-unsigned-drivers/)
+Guide: [How to Disable Driver Signature Verification on 64-Bit Windows](https://www.howtogeek.com/167723/how-to-disable-driver-signature-verification-on-64-bit-windows-8.1-so-that-you-can-install-unsigned-drivers/)
 
 ### Working Hardware (i5-8305G / i7-8705G / i7-8706G / i7-8709G / i7-8809G)
 
@@ -44,7 +42,7 @@ Just make sure disable driver signature enforcement beforce install or update th
 
 ### Working Features
 
-* [x] New Games Optimization(Possible)
+* [x] New Games Optimization (Possible)
 * [x] AMD Link
 * [x] AMD Bug Report Tool
 * [x] New Vulkan Extension
