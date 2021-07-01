@@ -1,5 +1,9 @@
 简体中文 | [English](./README.md)
 
+#### 介绍
+
+
+
 ### 预览
 
 ![system](Screenshots/system.png)
@@ -12,12 +16,12 @@
 
 #### 支持的操作系统
 
-- Windows 10
-- Windows 11 预览版
+* [x] Windows 10
+* [x] Windows 11 预览版
 
 #### 安装
 
-运行安装程序之前请确保已禁用驱动程序强制签名即可，或直接参考我的[知乎教程](https://zhuanlan.zhihu.com/p/333841073)
+运行程序之前请确保已禁用驱动程序强制签名即可按照正常流程进行安装，或直接参考我的[知乎教程](https://zhuanlan.zhihu.com/p/333841073)。
 
 #### 支持的硬件
 
@@ -30,11 +34,11 @@
 
 #### 支持的功能
 
-* [x] 新游戏优化(Possible)
+* [x] 新游戏优化(可能吧)
 * [x] AMD Link
 * [x] AMD Bug Report Tool
 * [x] 新的Vulkan扩展
-* [x] 新的Radeon Boost支持游戏
+* [x] Radeon Boost新游戏支持
 * [x] 新的Radeon Software功能选项
 * [x] AMD Crash Defender
 * [x] AMD FidelityFX超采样 (FSR)
@@ -42,4 +46,4 @@
 
 #### 不工作/Bug
 
-若有任何问题，请提交至 [issues](https://github.com/leogcry22/Hades-VegaM/issues)
+若有任何问题，请提交至 [issues](https://github.com/leogcry22/Hades-VegaM/issues)。

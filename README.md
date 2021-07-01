@@ -1,6 +1,10 @@
 English | [简体中文](./README.zh-CN.md)
 
-### Overview
+#### Overview
+
+
+
+### Preview
 
 ![system](Screenshots/system.png)
 
@@ -12,14 +16,16 @@ English | [简体中文](./README.zh-CN.md)
 
 #### Support OS
 
-- Windows 10
-- Windows 11 Insider Preview
+* [x] Windows 10
+* [x] Windows 11 Insider Preview
 
 #### Install
 
-Just make sure disable driver signature enforcement beforce install this
+Just make sure disable driver signature enforcement beforce install this.
 
-Guide: [How to Disable Driver Signature Verification on 64-Bit Windows](https://www.howtogeek.com/167723/how-to-disable-driver-signature-verification-on-64-bit-windows-8.1-so-that-you-can-install-unsigned-drivers/)
+Simple Guide:
+
+[How to Disable Driver Signature Verification on 64-Bit Windows](https://www.howtogeek.com/167723/how-to-disable-driver-signature-verification-on-64-bit-windows-8.1-so-that-you-can-install-unsigned-drivers/)
 
 #### Working Hardware
 
@@ -44,4 +50,4 @@ Guide: [How to Disable Driver Signature Verification on 64-Bit Windows](https://
 
 #### Not Working/Issues
 
-Please report and track [issues here](https://github.com/leogcry22/Hades-VegaM/issues)
+Please report and track [issues here](https://github.com/leogcry22/Hades-VegaM/issues).
