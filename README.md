@@ -27,7 +27,7 @@ Just make sure disable driver signature enforcement beforce install or update th
 
 Simple Guide: [How to Disable Driver Signature Verification on 64-Bit Windows](https://www.howtogeek.com/167723/how-to-disable-driver-signature-verification-on-64-bit-windows-8.1-so-that-you-can-install-unsigned-drivers/)
 
-### Working Hardware
+### Working Hardware (i5-8305G/i7-8705G/i7-8706G/i7-8709G/i7-8809G)
 
 * [x] Intel NUC Hades Canyon (NUC8i7HNK/NUC8i7HVK)
 * [x] Dell XPS 15 9575 2-in-1
