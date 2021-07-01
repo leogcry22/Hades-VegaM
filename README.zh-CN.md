@@ -8,7 +8,7 @@
 
 ## 介绍
 
-魔改新版AMD驱动使其重新支持被放弃的Kaby Lake G系列SoC内置的GPU（Radeon™ RX Vega M GL/Radeon™ RX Vega M GH），如英特尔NUC冥王峡谷及其它品牌同SoC的一系列产品，持续更新中。
+魔改新版AMD驱动使其重新支持被放弃的Kaby Lake G系列SoC内置的GPU（Radeon™ RX Vega M GL/Radeon™ RX Vega M GH），如英特尔的NUC冥王峡谷及其它品牌同SoC的一系列产品等，持续更新中。
 
 ### 预览
 
@@ -27,7 +27,7 @@
 
 ### 安装
 
-运行之前请确保已经禁用驱动程序强制签名即可按照正常流程进行安装升级，或直接参考我的[知乎教程](https://zhuanlan.zhihu.com/p/333841073)。
+运行之前请确保已经成功禁用系统驱动程序强制签名，之后即可像正常一样进行安装或升级，详细可直接参考我的[知乎安装指南](https://zhuanlan.zhihu.com/p/333841073)。
 
 ### 支持的硬件（i5-8305G / i7-8705G / i7-8706G / i7-8709G / i7-8809G）
 
