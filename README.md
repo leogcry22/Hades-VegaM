@@ -1,10 +1,14 @@
 # Hades-VegaM
 
+<p align="center">
+    <img src="Screenshots/vegam.png"/>
+</p>
+
 English | [中文README](./README.zh-CN.md)
 
 ## Overview
 
-
+Hacked the latest AMD graphics driver to bring back support for abandoned Kaby Lake G series SoC's builtin GPU(Radeon™ RX Vega M GL/Radeon™ RX Vega M GH), Such as Intel NUC Hades Canyon and a series of products from other brands.
 
 ### Preview
 

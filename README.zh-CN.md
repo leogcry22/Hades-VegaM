@@ -1,10 +1,14 @@
 # Hades-VegaM
 
+<p align="center">
+    <img src="Screenshots/vegam.png"/>
+</p>
+
 中文README | [English](./README.md)
 
 ## 介绍
 
-魔改新版AMD驱动使其重新支持被放弃的Kaby Lake G系列SoC内置的GPU（Radeon™ RX Vega M GL/Radeon™ RX Vega M GH），如采用英特尔NUC冥王峡谷（NUC8i7HNK/NUC8i7HVK）及其它品牌同SoC的一系列产品，持续更新中
+魔改新版AMD驱动使其重新支持被放弃的Kaby Lake G系列SoC内置的GPU（Radeon™ RX Vega M GL/Radeon™ RX Vega M GH），如英特尔NUC冥王峡谷及其它品牌同SoC的一系列产品，持续更新中。
 
 ### 预览
 
