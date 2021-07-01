@@ -10,6 +10,15 @@
 
 ![fsr](Screenshots/fsr.png)
 
+#### 支持的操作系统
+
+- Windows 10
+- Windows 11 预览版
+
+#### 安装
+
+运行安装程序之前请确保已禁用驱动程序强制签名即可，或直接参考我的[知乎教程](https://zhuanlan.zhihu.com/p/333841073)
+
 #### 支持的硬件
 
 * [x] 英特尔NUC8i7HNK/NUC8i7HVK冥王峡谷
@@ -33,4 +42,4 @@
 
 #### 不工作/Bug
 
-若有任何问题，请提交至 [issues](https://github.com/leogcry22/Hades-VegaM/issues).
+若有任何问题，请提交至 [issues](https://github.com/leogcry22/Hades-VegaM/issues)
