@@ -1,9 +1,14 @@
-# Welcome
-
+English | [简体中文](./README.zh-CN.md)
 
 ### Overview
 
+![system](Screenshots/system.png)
 
+![graphics](Screenshots/graphics.png)
+
+![display](Screenshots/display.png)
+
+![fsr](Screenshots/fsr.png)
 
 #### Working Hardware
 
@@ -14,7 +19,7 @@
 * [x] Acer ConceptD 5
 * [x] HP Spectre x360 15
 
-**Working Features**
+#### Working Features
 
 * [x] New Games Optimization(Possible)
 * [x] AMD Link
@@ -26,9 +31,6 @@
 * [x] AMD FidelityFX Super Resolution (FSR)
 * [x] Bug Fixing
 
-
-
 #### Not Working/Issues
 
 Please report and track [issues here](https://github.com/leogcry22/Hades-VegaM/issues).
-
