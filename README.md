@@ -1,6 +1,6 @@
 English | [简体中文](./README.zh-CN.md)
 
-#### Overview
+## Overview
 
 
 
@@ -14,12 +14,12 @@ English | [简体中文](./README.zh-CN.md)
 
 ![fsr](Screenshots/fsr.png)
 
-#### Support OS
+### Support OS
 
 * [x] Windows 10
 * [x] Windows 11 Insider Preview
 
-#### Install
+### Install
 
 Just make sure disable driver signature enforcement beforce install this.
 
@@ -27,7 +27,7 @@ Simple Guide:
 
 [How to Disable Driver Signature Verification on 64-Bit Windows](https://www.howtogeek.com/167723/how-to-disable-driver-signature-verification-on-64-bit-windows-8.1-so-that-you-can-install-unsigned-drivers/)
 
-#### Working Hardware
+### Working Hardware
 
 * [x] Intel NUC8i7HNK/NUC8i7HVK Hades Canyon
 * [x] Dell XPS 15 9575 2-in-1
@@ -36,7 +36,7 @@ Simple Guide:
 * [x] Acer ConceptD 5
 * [x] HP Spectre x360 15
 
-#### Working Features
+### Working Features
 
 * [x] New Games Optimization(Possible)
 * [x] AMD Link
@@ -48,6 +48,6 @@ Simple Guide:
 * [x] AMD FidelityFX Super Resolution (FSR)
 * [x] Bug Fixing
 
-#### Not Working/Issues
+### Not Working/Issues
 
 Please report and track [issues here](https://github.com/leogcry22/Hades-VegaM/issues).
