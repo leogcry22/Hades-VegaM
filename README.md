@@ -8,7 +8,7 @@ English | [中文README](./README.zh-CN.md)
 
 ## Overview
 
-Hacked the latest AMD graphics driver to bring back support for abandoned Kaby Lake G series SoC's builtin GPU(Radeon™ RX Vega M GL/Radeon™ RX Vega M GH), Such as Intel NUC Hades Canyon and a series of products from other brands.
+Hacked the latest AMD graphics driver to bring back support for abandoned Kaby Lake G SoC's builtin GPU(Radeon™ RX Vega M GL/Radeon™ RX Vega M GH), Such as Intel NUC Hades Canyon and a series of products from other brands.
 
 ### Preview
 
@@ -31,7 +31,7 @@ Just make sure disable driver signature enforcement beforce install or update th
 
 Simple Guide: [How to Disable Driver Signature Verification on 64-Bit Windows](https://www.howtogeek.com/167723/how-to-disable-driver-signature-verification-on-64-bit-windows-8.1-so-that-you-can-install-unsigned-drivers/)
 
-### Working Hardware (i5-8305G/i7-8705G/i7-8706G/i7-8709G/i7-8809G)
+### Working Hardware (i5-8305G / i7-8705G / i7-8706G / i7-8709G / i7-8809G)
 
 * [x] Intel NUC Hades Canyon (NUC8i7HNK/NUC8i7HVK)
 * [x] Dell XPS 15 9575 2-in-1
