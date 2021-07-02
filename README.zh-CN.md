@@ -1,7 +1,7 @@
 # Hades-VegaM
 
 <p align="center">
-  <img width="150px" src="Screenshots/vegam.png"/>
+  <img width="300px" src="Screenshots/vegam.png"/>
 </p>
 
 中文README | [English](./README.md)
