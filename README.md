@@ -27,7 +27,7 @@ Hacked latest AMD graphics driver to bring back support for abandoned Kaby Lake 
 
 ### Install
 
-Just make sure disable driver signature enforcement beforce install or update this.
+Just make sure disable driver signature enforcement before install or update this.
 
 Guide: [How to Disable Driver Signature Verification on 64-Bit Windows](https://www.howtogeek.com/167723/how-to-disable-driver-signature-verification-on-64-bit-windows-8.1-so-that-you-can-install-unsigned-drivers/)
 
