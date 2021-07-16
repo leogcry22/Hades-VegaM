@@ -4,23 +4,23 @@
       "Beta64buildpath" : "",
       "BetaReleaseNotes" : "",
       "Betaversion" : "",
-      "BuildVersion" : "21.20.01.16-210628a-369070E-RadeonSoftware",
+      "BuildVersion" : "21.20.17.01-210709a1-369595E-RadeonSoftware",
       "DGPUWorkaround" : "true",
       "EGNIkbArtLink" : "http://support.amd.com/en-us/kb-articles/Pages/Driver-Install-Upgrade-Case.aspx",
       "EnableAnalyticTracking" : "false",
       "EnableAnalytics" : "true",
       "EnableDVRTracking" : "true",
       "EnableHWCustomSettings" : "true",
-      "ExternalVersion" : "21.6.2",
+      "ExternalVersion" : "21.7.1",
       "MinBuildPath" : "",
       "OEM" : "",
       "OneClickEligible" : "true",
       "RadeonSoftwareEdition" : "Adrenalin 2020",
-      "RadeonSoftwareVersion" : "21.6.2",
+      "RadeonSoftwareVersion" : "21.7.1",
       "ReleaseNotes" : "",
       "UEITracking" : "true",
       "UseCustomSettings" : "true",
-      "Version" : "21.20.01.16-210628a-369070E-RadeonSoftware",
+      "Version" : "21.20.17.01-210709a1-369595E-RadeonSoftware",
       "WebBrowserURL" : "AMD",
       "WorkaroundInstall" : "false",
       "featureLevel" : "2110"
@@ -65,45 +65,8 @@
          },
          {
             "Info" : {
-               "Description" : "AMD Streaming Audio Filter Driver",
-               "DrivePackageInffile" : "amdsafd.INF",
-               "InstallByDefault" : "Yes",
-               "NoUninstallSupport" : "Yes",
-               "PID" : "W-10-0U01-000-001-111-001-00-25",
-               "ProductGUID" : "{7EEACA4F-1D18-4190-A02B-F17CBAB019D4}",
-               "ProductUpgradeGUID" : "{68625407-C536-4708-93FF-223E7A335A9D}",
-               "UninstallSupported" : "Yes",
-               "bDowngrade" : "Yes",
-               "bdisplayProductName" : "true",
-               "packageSize" : "1",
-               "productName" : "AMD Streaming Audio Filter Driver",
-               "ptype" : "DRIVER",
-               "universalinf" : "<UNIVERSALINFNAME>",
-               "url" : "Drivers\\Audio\\SAFD\\WT64A\\amdsafd.INF",
-               "version" : "1.0.0.3"
-            },
-            "Install" : {
-               "CmdParameters" : "",
-               "Conditions" : {
-                  "NodeDetails" : [
-                     "Root\\AMDSAFD&FUN_01&REV_01"
-                  ],
-                  "OSCheck" : [
-                     "*-*-10.0-Yes-*-*"
-                  ],
-                  "PlatformCheck" : [
-                     "*-CPU-*-AMD-*-*-*"
-                  ]
-               },
-               "Order" : "40",
-               "pAlgo" : "CREATE_NODE_INSTALL",
-               "pRetryAlgo" : ""
-            }
-         },
-         {
-            "Info" : {
                "Description" : "Display driver for Windows 10",
-               "DrivePackageInffile" : "U0369070.INF",
+               "DrivePackageInffile" : "U0369595.INF",
                "FriendProductUpgradeGUID" : [
                   "{E5846BD2-7506-474F-9F0B-2AF75DBA6268}",
                   "{3C909021-C40E-489B-9C1F-6C046683FCD7}",
@@ -129,9 +92,9 @@
                "productName" : "AMD Display Driver",
                "ptype" : "DRIVER",
                "serviceName" : "amdwddmg",
-               "universalinf" : "U0369070.INF",
-               "url" : "Drivers\\Display\\WT6A_INF\\U0369070.INF",
-               "version" : "27.20.22001.16006"
+               "universalinf" : "U0369595.INF",
+               "url" : "Drivers\\Display\\WT6A_INF\\U0369595.INF",
+               "version" : "27.20.22017.1004"
             },
             "Install" : {
                "CmdParameters" : "Force DevPresent",
@@ -604,7 +567,9 @@
                      "*-0x73DF-0x16C2-0x1002-0x1043-*-*-0xC3",
                      "*-0x73DF-*-0x1002-*-*-*-0xC1",
                      "*-0x73DF-*-0x1002-*-*-*-0xC3",
-                     "*-0x73DF-*-0x1002-*-*-*-0xC5"
+                     "*-0x73DF-*-0x1002-*-*-*-0xC5",
+                     "*-0x73DF-*-0x1002-*-*-*-0xCF",
+                     "*-0x73FF-*-0x1002-*-*-*-0xC3"
                   ],
                   "HWExclude" : [],
                   "OSCheck" : [
@@ -618,181 +583,102 @@
          },
          {
             "Info" : {
-               "Description" : "Driver for AMD Audio Coprocessor Bus",
-               "DrivePackageInffile" : "amdacpbus.INF",
+               "Description" : "AMD Radeon USB LED Driver",
+               "DrivePackageInffile" : "amdusbledfd.INF",
                "InstallByDefault" : "Yes",
                "NoUninstallSupport" : "Yes",
-               "PID" : "W-10-0U01-000-001-092-001-00-25",
-               "ProductGUID" : "{57062AE2-8536-4E56-8629-FD5549817513}",
-               "ProductUpgradeGUID" : "{DD5AE6EA-FC04-4CA2-A8CB-DE776A612BCA}",
+               "PID" : "W-00-0000-000-001-110-001-00-25",
+               "ProductGUID" : "{1C3A1A8A-B0D1-4256-B5AA-4D3B8E47B64C}",
+               "ProductUpgradeGUID" : "{6C2F623B-3F96-4830-BC90-84552FA5F9F7}",
                "UninstallSupported" : "Yes",
                "bDowngrade" : "Yes",
                "bdisplayProductName" : "true",
                "packageSize" : "1",
-               "productName" : "AMD Audio CoProcessor Bus Driver",
+               "productName" : "AMD Radeon USB LED Driver",
                "ptype" : "DRIVER",
                "universalinf" : "<UNIVERSALINFNAME>",
-               "url" : "Drivers\\Audio\\ACPBus\\WT64A\\amdacpbus.INF",
-               "version" : "6.0.0.7"
+               "url" : "Drivers\\RadeonLED\\WT64A\\amdusbledfd.msi",
+               "version" : "1.0.0.0"
             },
             "Install" : {
-               "CmdParameters" : "force DevPresent",
+               "CmdParameters" : "Force DevPresent",
                "Conditions" : {
-                  "ChkHWInfo" : {
-                     "HasAIWorVIVO" : "*",
-                     "ISNetExist" : "*",
-                     "ISSupportTeleText" : "*",
-                     "IsATIUSBCard" : "*",
-                     "IsAliston" : "*",
-                     "IsAudioExist" : "*",
-                     "IsGartChipset" : "*",
-                     "IsHPETFilterNeeded" : "*",
-                     "IsIDEExist" : "*",
-                     "IsIDESecDisabled" : "*",
-                     "IsSATAExist" : "*",
-                     "IsSATASetAsRaid" : " ",
-                     "IsSMBusExist" : "*",
-                     "IsSMBusNeedUSBF" : "*",
-                     "IsUSBExist" : "*",
-                     "IsVideoDecoder" : "*"
-                  },
-                  "DependencyCheck" : "",
-                  "DependencyCheckExclude" : "",
                   "EnumCheck" : [
-                     "*-0x15E2-*-0x1022-*-*-*-0x00-PCI-*-",
-                     "*-0x15E2-*-0x1022-*-*-*-0x01-PCI-*-",
-                     "*-0x15E2-*-0x1022-*-*-*-0x60-PCI-*-"
-                  ],
-                  "OSCheck" : [
-                     "*-*-10.0-Yes-*-*"
-                  ]
-               },
-               "Order" : "47",
-               "pAlgo" : "",
-               "pRetryAlgo" : ""
-            }
-         },
-         {
-            "Info" : {
-               "Description" : "Driver for AMD Audio Coprocessor Bus",
-               "DrivePackageInffile" : "amdacpbus.INF",
-               "InstallByDefault" : "Yes",
-               "NoUninstallSupport" : "Yes",
-               "PID" : "W-10-0U01-000-001-092-001-00-25",
-               "ProductGUID" : "{57062AE2-8536-4E56-8629-FD5549817513}",
-               "ProductUpgradeGUID" : "{DD5AE6EA-FC04-4CA2-A8CB-DE776A612BCA}",
-               "UninstallSupported" : "Yes",
-               "bDowngrade" : "Yes",
-               "bdisplayProductName" : "true",
-               "packageSize" : "1",
-               "productName" : "AMD Audio CoProcessor Bus Driver",
-               "ptype" : "DRIVER",
-               "universalinf" : "<UNIVERSALINFNAME>",
-               "url" : "Drivers\\Audio\\ACPBus\\WT64A\\amdacpbus.INF",
-               "version" : "6.0.0.7"
-            },
-            "Install" : {
-               "CmdParameters" : "force DevPresent",
-               "Conditions" : {
-                  "ChkHWInfo" : {
-                     "HasAIWorVIVO" : "*",
-                     "ISNetExist" : "*",
-                     "ISSupportTeleText" : "*",
-                     "IsATIUSBCard" : "*",
-                     "IsAliston" : "*",
-                     "IsAudioExist" : "*",
-                     "IsGartChipset" : "*",
-                     "IsHPETFilterNeeded" : "*",
-                     "IsIDEExist" : "*",
-                     "IsIDESecDisabled" : "*",
-                     "IsSATAExist" : "*",
-                     "IsSATASetAsRaid" : " ",
-                     "IsSMBusExist" : "*",
-                     "IsSMBusNeedUSBF" : "*",
-                     "IsUSBExist" : "*",
-                     "IsVideoDecoder" : "*"
-                  },
-                  "DependencyCheck" : "",
-                  "DependencyCheckExclude" : "",
-                  "EnumCheck" : [
-                     "*-0x15E2-*-0x1022-*-*-*-0x00-PCI-*-",
-                     "*-0x15E2-*-0x1022-*-*-*-0x01-PCI-*-",
-                     "*-0x15E2-*-0x1022-*-*-*-0x60-PCI-*-"
-                  ],
-                  "OSCheck" : [
-                     "*-*-10.0-Yes-*-*"
-                  ]
-               },
-               "Order" : "47",
-               "pAlgo" : "",
-               "pRetryAlgo" : ""
-            }
-         },
-         {
-            "Info" : {
-               "Description" : "RyzenMasterSDK",
-               "InstallByDefault" : "Yes",
-               "Installfile" : "RyzenMasterSDK.msi",
-               "NoUninstallSupport" : "Yes",
-               "PID" : "W-06-1U01-001-002-228-001-00-25",
-               "ProductGUID" : "{040CD326-7042-4872-9F3D-A6683EB668F4}",
-               "ProductUpgradeGUID" : "{0E8DD605-23AB-4068-A7B9-F6B52F353BDC}",
-               "UninstallSupported" : "Yes",
-               "bDowngrade" : "Yes",
-               "bdisplayProductName" : "true",
-               "packageSize" : "5",
-               "productName" : "RyzenMasterSDK",
-               "ptype" : "MSI",
-               "url" : "Apps\\RyzenMasterSDK\\RyzenMasterSDK.msi",
-               "version" : "1.2.3.5"
-            },
-            "Install" : {
-               "CmdParameters" : "REBOOT=ReallySuppress MSIFASTINSTALL=3 ",
-               "Conditions" : {
-                  "CPUID" : [
-                     "0x00800F00-2",
-                     "0x00800F10-2",
-                     "0x00800F11-2",
-                     "0x00800F12-2",
-                     "0x00800F10-7",
-                     "0x00800F11-7",
-                     "0x00800F12-7",
-                     "0x00810F10-2",
-                     "0x00810F11-2",
-                     "0x00800F82-2",
-                     "0x00800F83-2",
-                     "0x00800F82-7",
-                     "0x00800F83-7",
-                     "0x00810F80-0",
-                     "0x00810F81-0",
-                     "0x00810F80-2",
-                     "0x00810F81-2",
-                     "0x00870F00-2",
-                     "0x00870F10-2",
-                     "0x00830F00-7",
-                     "0x00830F10-7",
-                     "0x00860F00-0",
-                     "0x00860F01-0",
-                     "0x00860F00-2",
-                     "0x00860F01-2",
-                     "0x00A20F00-2",
-                     "0x00A20F10-2",
-                     "0x00A50F00-2",
-                     "0x00A50F00-0",
-                     "0x00A50F01-2",
-                     "0x00A50F01-0",
-                     "0x00860F81-0"
-                  ],
-                  "DependencyCheck" : [
-                     "*:*:W-10-0U01-000-002-192-001-00-25:*"
+                     "*-*-*-*-*-*-*-*-USB-USB\\VID_2516&PID_015B&MI_00-",
+                     "*-*-*-*-*-*-*-*-USB-USB\\VID_2516&PID_015B&MI_01-",
+                     "*-*-*-*-*-*-*-*-USB-USB\\VID_2516&PID_015B&MI_02-",
+                     "*-*-*-*-*-*-*-*-USB-USB\\VID_2516&PID_014D&MI_00-",
+                     "*-*-*-*-*-*-*-*-USB-USB\\VID_2516&PID_014D&MI_01-",
+                     "*-*-*-*-*-*-*-*-USB-USB\\VID_2516&PID_014D&MI_02-"
                   ],
                   "OSCheck" : [
                      "*-*-10.0-Yes-*-*",
+                     "*-*-6.1-Yes-*-*",
+                     "*-*-6.3-Yes-*-*",
+                     "*-*-6.0-Yes-*-Yes",
+                     "*-*-6.1-Yes-*-Yes",
                      "*-*-10.0-Yes-*-Yes",
+                     "*-*-6.3-Yes-*-Yes",
                      "*-*-10.0.17763.0-Yes-*-Yes"
                   ]
                },
-               "Order" : "769",
+               "Order" : "340",
+               "pAlgo" : "",
+               "pRetryAlgo" : ""
+            }
+         },
+         {
+            "Info" : {
+               "Description" : "Driver for AMD Audio Coprocessor Bus",
+               "DrivePackageInffile" : "amdacpbus.INF",
+               "InstallByDefault" : "Yes",
+               "NoUninstallSupport" : "Yes",
+               "PID" : "W-10-0U01-000-001-092-001-00-25",
+               "ProductGUID" : "{57062AE2-8536-4E56-8629-FD5549817513}",
+               "ProductUpgradeGUID" : "{DD5AE6EA-FC04-4CA2-A8CB-DE776A612BCA}",
+               "UninstallSupported" : "Yes",
+               "bDowngrade" : "Yes",
+               "bdisplayProductName" : "true",
+               "packageSize" : "1",
+               "productName" : "AMD Audio CoProcessor Bus Driver",
+               "ptype" : "DRIVER",
+               "universalinf" : "<UNIVERSALINFNAME>",
+               "url" : "Drivers\\Audio\\ACPBus\\WT64A\\amdacpbus.INF",
+               "version" : "6.0.0.11"
+            },
+            "Install" : {
+               "CmdParameters" : "force DevPresent",
+               "Conditions" : {
+                  "ChkHWInfo" : {
+                     "HasAIWorVIVO" : "*",
+                     "ISNetExist" : "*",
+                     "ISSupportTeleText" : "*",
+                     "IsATIUSBCard" : "*",
+                     "IsAliston" : "*",
+                     "IsAudioExist" : "*",
+                     "IsGartChipset" : "*",
+                     "IsHPETFilterNeeded" : "*",
+                     "IsIDEExist" : "*",
+                     "IsIDESecDisabled" : "*",
+                     "IsSATAExist" : "*",
+                     "IsSATASetAsRaid" : " ",
+                     "IsSMBusExist" : "*",
+                     "IsSMBusNeedUSBF" : "*",
+                     "IsUSBExist" : "*",
+                     "IsVideoDecoder" : "*"
+                  },
+                  "DependencyCheck" : "",
+                  "DependencyCheckExclude" : "",
+                  "EnumCheck" : [
+                     "*-0x15E2-*-0x1022-*-*-*-0x00-PCI-*-",
+                     "*-0x15E2-*-0x1022-*-*-*-0x01-PCI-*-",
+                     "*-0x15E2-*-0x1022-*-*-*-0x60-PCI-*-"
+                  ],
+                  "OSCheck" : [
+                     "*-*-10.0-Yes-*-*"
+                  ]
+               },
+               "Order" : "47",
                "pAlgo" : "",
                "pRetryAlgo" : ""
             }
@@ -847,52 +733,6 @@
                   ]
                },
                "Order" : "41",
-               "pAlgo" : "",
-               "pRetryAlgo" : ""
-            }
-         },
-         {
-            "Info" : {
-               "Description" : "AMD Radeon USB LED Driver",
-               "DrivePackageInffile" : "amdusbledfd.INF",
-               "InstallByDefault" : "Yes",
-               "NoUninstallSupport" : "Yes",
-               "PID" : "W-00-0000-000-001-110-001-00-25",
-               "ProductGUID" : "{1C3A1A8A-B0D1-4256-B5AA-4D3B8E47B64C}",
-               "ProductUpgradeGUID" : "{6C2F623B-3F96-4830-BC90-84552FA5F9F7}",
-               "UninstallSupported" : "Yes",
-               "bDowngrade" : "Yes",
-               "bdisplayProductName" : "true",
-               "packageSize" : "1",
-               "productName" : "AMD Radeon USB LED Driver",
-               "ptype" : "DRIVER",
-               "universalinf" : "<UNIVERSALINFNAME>",
-               "url" : "Drivers\\RadeonLED\\WT64A\\amdusbledfd.msi",
-               "version" : "1.0.0.0"
-            },
-            "Install" : {
-               "CmdParameters" : "Force DevPresent",
-               "Conditions" : {
-                  "EnumCheck" : [
-                     "*-*-*-*-*-*-*-*-USB-USB\\VID_2516&PID_015B&MI_00-",
-                     "*-*-*-*-*-*-*-*-USB-USB\\VID_2516&PID_015B&MI_01-",
-                     "*-*-*-*-*-*-*-*-USB-USB\\VID_2516&PID_015B&MI_02-",
-                     "*-*-*-*-*-*-*-*-USB-USB\\VID_2516&PID_014D&MI_00-",
-                     "*-*-*-*-*-*-*-*-USB-USB\\VID_2516&PID_014D&MI_01-",
-                     "*-*-*-*-*-*-*-*-USB-USB\\VID_2516&PID_014D&MI_02-"
-                  ],
-                  "OSCheck" : [
-                     "*-*-10.0-Yes-*-*",
-                     "*-*-6.1-Yes-*-*",
-                     "*-*-6.3-Yes-*-*",
-                     "*-*-6.0-Yes-*-Yes",
-                     "*-*-6.1-Yes-*-Yes",
-                     "*-*-10.0-Yes-*-Yes",
-                     "*-*-6.3-Yes-*-Yes",
-                     "*-*-10.0.17763.0-Yes-*-Yes"
-                  ]
-               },
-               "Order" : "340",
                "pAlgo" : "",
                "pRetryAlgo" : ""
             }
@@ -991,7 +831,7 @@
                "Installfile" : "RadeonLED.msi",
                "NoUninstallSupport" : "Yes",
                "PID" : "W-00-0000-000-002-229-001-00-25",
-               "ProductGUID" : "{D20041A0-55CE-4229-A28A-87DE2417FDFA}",
+               "ProductGUID" : "{3070DCE7-5CF9-47EF-9614-4B03ED6BC10B}",
                "ProductUpgradeGUID" : "{5D33C7EA-5F00-4287-A2C4-146E3E64D469}",
                "UninstallSupported" : "Yes",
                "bDowngrade" : "Yes",
@@ -1029,7 +869,7 @@
                "Installfile" : "AUEP64.msi",
                "NoUninstallSupport" : "Yes",
                "PID" : "W-06-1U00-000-002-227-001-00-25",
-               "ProductGUID" : "{91AB94E6-B382-42F1-9BBF-0A2485499523}",
+               "ProductGUID" : "{F07439E3-39AF-4725-B5BD-A8266CAC2581}",
                "ProductUpgradeGUID" : "{14FF974F-1802-43D4-B8FE-78AF51D911D6}",
                "UninstallSupported" : "Yes",
                "bDowngrade" : "Yes",
@@ -1038,7 +878,7 @@
                "productName" : "AMD User Experience Program Installer",
                "ptype" : "MSI",
                "url" : "Apps\\AUEP64\\AUEP64.msi",
-               "version" : "2120.01.16.628"
+               "version" : "2120.17.01.709"
             },
             "Install" : {
                "CmdParameters" : "REBOOT=ReallySuppress ARPSYSTEMCOMPONENT=1",
@@ -1505,6 +1345,8 @@
                      "*-0x73DF - * - 0x1002 - * - *-*-0xC1-",
                      "*-0x73DF - * - 0x1002 - * - *-*-0xC3-",
                      "*-0x73DF - * - 0x1002 - * - *-*-0xC5-",
+                     "*-0x73DF - * - 0x1002 - * - *-*-0xCF-",
+                     "*-0x73FF - * - 0x1002 - * - *-*-0xC3-",
                      "*-0x694C - 0x0CF9 - 0x1002 - 0x8086 - *-*-0xC0-",
                      "*-0x694C - 0x2073 - 0x1002 - 0x8086 - *-*-0xC0-",
                      "*-0x694C - * - 0x1002 - * - *-*-0xC0-",
@@ -1601,41 +1443,7 @@
                "ptype" : "DRIVER",
                "universalinf" : "<UNIVERSALINFNAME>",
                "url" : "Drivers\\Audio\\ACPAfd\\WT64A\\amdacpafd.INF",
-               "version" : "6.0.0.3"
-            },
-            "Install" : {
-               "CmdParameters" : " ",
-               "Conditions" : {
-                  "DependencyCheck" : [
-                     "*:*:W-10-0U01-000-001-092-001-00-25:*"
-                  ],
-                  "OSCheck" : [
-                     "*-*-10.0-Yes-*-*"
-                  ]
-               },
-               "Order" : "43",
-               "pAlgo" : "",
-               "pRetryAlgo" : ""
-            }
-         },
-         {
-            "Info" : {
-               "Description" : "AMD Audio Filter driver",
-               "DrivePackageInffile" : "amdacpafd.INF",
-               "InstallByDefault" : "Yes",
-               "NoUninstallSupport" : "Yes",
-               "PID" : "W-10-0U01-000-001-109-001-00-25",
-               "ProductGUID" : "{02E442AB-CE11-4ABF-8D77-DC95B08E3FAD}",
-               "ProductUpgradeGUID" : "{75AF733F-61DF-49CE-90AC-CD079F5DD46A}",
-               "UninstallSupported" : "Yes",
-               "bDowngrade" : "Yes",
-               "bdisplayProductName" : "true",
-               "packageSize" : "1",
-               "productName" : "AMD Audio filter driver",
-               "ptype" : "DRIVER",
-               "universalinf" : "<UNIVERSALINFNAME>",
-               "url" : "Drivers\\Audio\\ACPAfd\\WT64A\\amdacpafd.INF",
-               "version" : "6.0.0.3"
+               "version" : "6.0.0.7"
             },
             "Install" : {
                "CmdParameters" : " ",
@@ -1687,6 +1495,112 @@
                   ]
                },
                "Order" : "327",
+               "pAlgo" : "",
+               "pRetryAlgo" : ""
+            }
+         },
+         {
+            "Info" : {
+               "Description" : "AMD Streaming Audio Filter Driver",
+               "DrivePackageInffile" : "amdsafd.INF",
+               "InstallByDefault" : "Yes",
+               "NoUninstallSupport" : "Yes",
+               "PID" : "W-10-0U01-000-001-111-001-00-25",
+               "ProductGUID" : "{7EEACA4F-1D18-4190-A02B-F17CBAB019D4}",
+               "ProductUpgradeGUID" : "{68625407-C536-4708-93FF-223E7A335A9D}",
+               "UninstallSupported" : "Yes",
+               "bDowngrade" : "Yes",
+               "bdisplayProductName" : "true",
+               "packageSize" : "1",
+               "productName" : "AMD Streaming Audio Filter Driver",
+               "ptype" : "DRIVER",
+               "universalinf" : "<UNIVERSALINFNAME>",
+               "url" : "Drivers\\Audio\\SAFD\\WT64A\\amdsafd.INF",
+               "version" : "1.0.0.3"
+            },
+            "Install" : {
+               "CmdParameters" : "",
+               "Conditions" : {
+                  "NodeDetails" : [
+                     "Root\\AMDSAFD&FUN_01&REV_01"
+                  ],
+                  "OSCheck" : [
+                     "*-*-10.0-Yes-*-*"
+                  ],
+                  "PlatformCheck" : [
+                     "*-CPU-*-AMD-*-*-*"
+                  ]
+               },
+               "Order" : "40",
+               "pAlgo" : "CREATE_NODE_INSTALL",
+               "pRetryAlgo" : ""
+            }
+         },
+         {
+            "Info" : {
+               "Description" : "RyzenMasterSDK",
+               "InstallByDefault" : "Yes",
+               "Installfile" : "RyzenMasterSDK.msi",
+               "NoUninstallSupport" : "Yes",
+               "PID" : "W-06-1U01-001-002-228-001-00-25",
+               "ProductGUID" : "{37D11883-FB47-4D75-92DF-4E88C199D270}",
+               "ProductUpgradeGUID" : "{0E8DD605-23AB-4068-A7B9-F6B52F353BDC}",
+               "UninstallSupported" : "Yes",
+               "bDowngrade" : "Yes",
+               "bdisplayProductName" : "true",
+               "packageSize" : "5",
+               "productName" : "RyzenMasterSDK",
+               "ptype" : "MSI",
+               "url" : "Apps\\RyzenMasterSDK\\RyzenMasterSDK.msi",
+               "version" : "1.2.3.5"
+            },
+            "Install" : {
+               "CmdParameters" : "REBOOT=ReallySuppress MSIFASTINSTALL=3 ",
+               "Conditions" : {
+                  "CPUID" : [
+                     "0x00800F00-2",
+                     "0x00800F10-2",
+                     "0x00800F11-2",
+                     "0x00800F12-2",
+                     "0x00800F10-7",
+                     "0x00800F11-7",
+                     "0x00800F12-7",
+                     "0x00810F10-2",
+                     "0x00810F11-2",
+                     "0x00800F82-2",
+                     "0x00800F83-2",
+                     "0x00800F82-7",
+                     "0x00800F83-7",
+                     "0x00810F80-0",
+                     "0x00810F81-0",
+                     "0x00810F80-2",
+                     "0x00810F81-2",
+                     "0x00870F00-2",
+                     "0x00870F10-2",
+                     "0x00830F00-7",
+                     "0x00830F10-7",
+                     "0x00860F00-0",
+                     "0x00860F01-0",
+                     "0x00860F00-2",
+                     "0x00860F01-2",
+                     "0x00A20F00-2",
+                     "0x00A20F10-2",
+                     "0x00A50F00-2",
+                     "0x00A50F00-0",
+                     "0x00A50F01-2",
+                     "0x00A50F01-0",
+                     "0x00860F81-0"
+                  ],
+                  "DependencyCheck" : [
+                     "*:*:W-10-0U01-000-002-192-001-00-25:*"
+                  ],
+                  "OSCheck" : [
+                     "*-*-10.0-Yes-*-*",
+                     "*-*-10.0-Yes-*-Yes",
+                     "*-*-10.0.17763.0-Yes-*-Yes"
+                  ]
+               },
+               "Order" : "769",
                "pAlgo" : "",
                "pRetryAlgo" : ""
             }
