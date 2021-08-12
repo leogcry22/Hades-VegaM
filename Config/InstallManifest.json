@@ -4,23 +4,23 @@
       "Beta64buildpath" : "",
       "BetaReleaseNotes" : "",
       "Betaversion" : "",
-      "BuildVersion" : "21.20.21.01-210722a-369924E-RadeonSoftware",
+      "BuildVersion" : "21.20.23.01-210806a-370422E-RadeonSoftware",
       "DGPUWorkaround" : "true",
       "EGNIkbArtLink" : "http://support.amd.com/en-us/kb-articles/Pages/Driver-Install-Upgrade-Case.aspx",
       "EnableAnalyticTracking" : "false",
       "EnableAnalytics" : "true",
       "EnableDVRTracking" : "true",
       "EnableHWCustomSettings" : "true",
-      "ExternalVersion" : "21.7.2",
+      "ExternalVersion" : "21.8.1",
       "MinBuildPath" : "",
       "OEM" : "",
       "OneClickEligible" : "true",
       "RadeonSoftwareEdition" : "Adrenalin 2020",
-      "RadeonSoftwareVersion" : "21.7.2",
+      "RadeonSoftwareVersion" : "21.8.1",
       "ReleaseNotes" : "",
       "UEITracking" : "true",
       "UseCustomSettings" : "true",
-      "Version" : "21.20.21.01-210722a-369924E-RadeonSoftware",
+      "Version" : "21.20.23.01-210806a-370422E-RadeonSoftware",
       "WebBrowserURL" : "AMD",
       "WorkaroundInstall" : "false",
       "featureLevel" : "2110"
@@ -29,44 +29,8 @@
       "Package" : [
          {
             "Info" : {
-               "Description" : "AMD Settings Branding",
-               "InstallByDefault" : "Yes",
-               "Installfile" : "CNBranding64.msi",
-               "NoUninstallSupport" : "Yes",
-               "PID" : "W-10-0U03-000-002-194-001-00-25",
-               "ProductGUID" : "{C871FC62-0186-40ED-BAEA-7C65BE367755}",
-               "ProductUpgradeGUID" : "{D72F6448-DD07-4DD4-A34B-F224A5106D9C}",
-               "UninstallSupported" : "Yes",
-               "bDowngrade" : "Yes",
-               "bdisplayProductName" : "true",
-               "productName" : "Branding64",
-               "ptype" : "MSI",
-               "url" : "Apps\\CNBranding\\CNBranding64.msi",
-               "version" : "1.00.0006"
-            },
-            "Install" : {
-               "CmdParameters" : "REBOOT=ReallySuppress",
-               "Conditions" : {
-                  "DependencyCheck" : [
-                     "*:*:W-10-0U01-000-002-192-001-00-25:*"
-                  ],
-                  "HWCheck" : [],
-                  "HWExclude" : [],
-                  "OSCheck" : [
-                     "*-*-10.0-Yes-*-*",
-                     "*-*-6.1-Yes-*-*",
-                     "*-*-6.3-Yes-*-*"
-                  ]
-               },
-               "Order" : "612",
-               "pAlgo" : "",
-               "pRetryAlgo" : ""
-            }
-         },
-         {
-            "Info" : {
                "Description" : "Display driver for Windows 10",
-               "DrivePackageInffile" : "U0369924.INF",
+               "DrivePackageInffile" : "U0370422.INF",
                "FriendProductUpgradeGUID" : [
                   "{E5846BD2-7506-474F-9F0B-2AF75DBA6268}",
                   "{3C909021-C40E-489B-9C1F-6C046683FCD7}",
@@ -92,9 +56,9 @@
                "productName" : "AMD Display Driver",
                "ptype" : "DRIVER",
                "serviceName" : "amdwddmg",
-               "universalinf" : "U0369924.INF",
-               "url" : "Drivers\\Display\\WT6A_INF\\U0369924.INF",
-               "version" : "27.20.22021.1002"
+               "universalinf" : "U0370422.INF",
+               "url" : "Drivers\\Display\\WT6A_INF\\U0370422.INF",
+               "version" : "27.20.22023.1004"
             },
             "Install" : {
                "CmdParameters" : "Force DevPresent",
@@ -569,6 +533,7 @@
                      "*-0x73DF-*-0x1002-*-*-*-0xC3",
                      "*-0x73DF-*-0x1002-*-*-*-0xC5",
                      "*-0x73DF-*-0x1002-*-*-*-0xCF",
+                     "*-0x73FF-*-0x1002-*-*-*-0xC1",
                      "*-0x73FF-*-0x1002-*-*-*-0xC3"
                   ],
                   "HWExclude" : [],
@@ -577,52 +542,6 @@
                   ]
                },
                "Order" : "37",
-               "pAlgo" : "",
-               "pRetryAlgo" : ""
-            }
-         },
-         {
-            "Info" : {
-               "Description" : "AMD Radeon USB LED Driver",
-               "DrivePackageInffile" : "amdusbledfd.INF",
-               "InstallByDefault" : "Yes",
-               "NoUninstallSupport" : "Yes",
-               "PID" : "W-00-0000-000-001-110-001-00-25",
-               "ProductGUID" : "{1C3A1A8A-B0D1-4256-B5AA-4D3B8E47B64C}",
-               "ProductUpgradeGUID" : "{6C2F623B-3F96-4830-BC90-84552FA5F9F7}",
-               "UninstallSupported" : "Yes",
-               "bDowngrade" : "Yes",
-               "bdisplayProductName" : "true",
-               "packageSize" : "1",
-               "productName" : "AMD Radeon USB LED Driver",
-               "ptype" : "DRIVER",
-               "universalinf" : "<UNIVERSALINFNAME>",
-               "url" : "Drivers\\RadeonLED\\WT64A\\amdusbledfd.msi",
-               "version" : "1.0.0.0"
-            },
-            "Install" : {
-               "CmdParameters" : "Force DevPresent",
-               "Conditions" : {
-                  "EnumCheck" : [
-                     "*-*-*-*-*-*-*-*-USB-USB\\VID_2516&PID_015B&MI_00-",
-                     "*-*-*-*-*-*-*-*-USB-USB\\VID_2516&PID_015B&MI_01-",
-                     "*-*-*-*-*-*-*-*-USB-USB\\VID_2516&PID_015B&MI_02-",
-                     "*-*-*-*-*-*-*-*-USB-USB\\VID_2516&PID_014D&MI_00-",
-                     "*-*-*-*-*-*-*-*-USB-USB\\VID_2516&PID_014D&MI_01-",
-                     "*-*-*-*-*-*-*-*-USB-USB\\VID_2516&PID_014D&MI_02-"
-                  ],
-                  "OSCheck" : [
-                     "*-*-10.0-Yes-*-*",
-                     "*-*-6.1-Yes-*-*",
-                     "*-*-6.3-Yes-*-*",
-                     "*-*-6.0-Yes-*-Yes",
-                     "*-*-6.1-Yes-*-Yes",
-                     "*-*-10.0-Yes-*-Yes",
-                     "*-*-6.3-Yes-*-Yes",
-                     "*-*-10.0.17763.0-Yes-*-Yes"
-                  ]
-               },
-               "Order" : "340",
                "pAlgo" : "",
                "pRetryAlgo" : ""
             }
@@ -644,7 +563,7 @@
                "ptype" : "DRIVER",
                "universalinf" : "<UNIVERSALINFNAME>",
                "url" : "Drivers\\Audio\\ACPBus\\WT64A\\amdacpbus.INF",
-               "version" : "6.0.0.13"
+               "version" : "6.0.0.14"
             },
             "Install" : {
                "CmdParameters" : "force DevPresent",
@@ -826,50 +745,12 @@
          },
          {
             "Info" : {
-               "Description" : "Radeon USB LED",
-               "InstallByDefault" : "No",
-               "Installfile" : "RadeonLED.msi",
-               "NoUninstallSupport" : "Yes",
-               "PID" : "W-00-0000-000-002-229-001-00-25",
-               "ProductGUID" : "{E671C210-A89C-4C92-8E2E-9705B713C88C}",
-               "ProductUpgradeGUID" : "{5D33C7EA-5F00-4287-A2C4-146E3E64D469}",
-               "UninstallSupported" : "Yes",
-               "bDowngrade" : "Yes",
-               "bdisplayProductName" : "true",
-               "packageSize" : "10",
-               "productName" : "AMD Radeon USB LED Application",
-               "ptype" : "MSI",
-               "url" : "Apps\\RadeonLED\\RadeonLED.msi",
-               "version" : "1.0.1"
-            },
-            "Install" : {
-               "CmdParameters" : "REBOOT=ReallySuppress MSIFASTINSTALL=3",
-               "Conditions" : {
-                  "DependencyCheck" : [
-                     "*:*:W-00-0000-000-001-110-001-00-25:*"
-                  ],
-                  "OSCheck" : [
-                     "*-*-10.0-Yes-*-*",
-                     "*-*-6.1-Yes-*-*",
-                     "*-*-6.3-Yes-*-*",
-                     "*-*-6.3-Yes-*-Yes",
-                     "*-*-10.0-Yes-*-Yes",
-                     "*-*-10.0.17763.0-Yes-*-Yes"
-                  ]
-               },
-               "Order" : "800",
-               "pAlgo" : "",
-               "pRetryAlgo" : ""
-            }
-         },
-         {
-            "Info" : {
                "Description" : "AMD User Experience Program Software",
                "InstallByDefault" : "Yes",
                "Installfile" : "AUEP64.msi",
                "NoUninstallSupport" : "Yes",
                "PID" : "W-06-1U00-000-002-227-001-00-25",
-               "ProductGUID" : "{9DA9D271-FE4A-4DC2-B616-AE8D9BC02E8C}",
+               "ProductGUID" : "{27A4DD2A-20C4-4855-8DD5-7A0CE5DD12DC}",
                "ProductUpgradeGUID" : "{14FF974F-1802-43D4-B8FE-78AF51D911D6}",
                "UninstallSupported" : "Yes",
                "bDowngrade" : "Yes",
@@ -878,7 +759,7 @@
                "productName" : "AMD User Experience Program Installer",
                "ptype" : "MSI",
                "url" : "Apps\\AUEP64\\AUEP64.msi",
-               "version" : "2120.21.01.722"
+               "version" : "2120.23.01.806"
             },
             "Install" : {
                "CmdParameters" : "REBOOT=ReallySuppress ARPSYSTEMCOMPONENT=1",
@@ -1346,6 +1227,7 @@
                      "*-0x73DF - * - 0x1002 - * - *-*-0xC3-",
                      "*-0x73DF - * - 0x1002 - * - *-*-0xC5-",
                      "*-0x73DF - * - 0x1002 - * - *-*-0xCF-",
+                     "*-0x73FF - * - 0x1002 - * - *-*-0xC1-",
                      "*-0x73FF - * - 0x1002 - * - *-*-0xC3-",
                      "*-0x694C - 0x0CF9 - 0x1002 - 0x8086 - *-*-0xC0-",
                      "*-0x694C - 0x2073 - 0x1002 - 0x8086 - *-*-0xC0-",
@@ -1443,7 +1325,7 @@
                "ptype" : "DRIVER",
                "universalinf" : "<UNIVERSALINFNAME>",
                "url" : "Drivers\\Audio\\ACPAfd\\WT64A\\amdacpafd.INF",
-               "version" : "6.0.0.9"
+               "version" : "6.0.0.10"
             },
             "Install" : {
                "CmdParameters" : " ",
@@ -1543,7 +1425,7 @@
                "Installfile" : "RyzenMasterSDK.msi",
                "NoUninstallSupport" : "Yes",
                "PID" : "W-06-1U01-001-002-228-001-00-25",
-               "ProductGUID" : "{9F16B6C2-A059-42EC-8640-96821B0B6B24}",
+               "ProductGUID" : "{6F4D7BE9-69B7-47C1-ABBB-688BB856FF85}",
                "ProductUpgradeGUID" : "{0E8DD605-23AB-4068-A7B9-F6B52F353BDC}",
                "UninstallSupported" : "Yes",
                "bDowngrade" : "Yes",
@@ -1601,6 +1483,126 @@
                   ]
                },
                "Order" : "769",
+               "pAlgo" : "",
+               "pRetryAlgo" : ""
+            }
+         },
+         {
+            "Info" : {
+               "Description" : "AMD Radeon USB LED Driver",
+               "DrivePackageInffile" : "amdusbledfd.INF",
+               "InstallByDefault" : "Yes",
+               "NoUninstallSupport" : "Yes",
+               "PID" : "W-00-0000-000-001-110-001-00-25",
+               "ProductGUID" : "{1C3A1A8A-B0D1-4256-B5AA-4D3B8E47B64C}",
+               "ProductUpgradeGUID" : "{6C2F623B-3F96-4830-BC90-84552FA5F9F7}",
+               "UninstallSupported" : "Yes",
+               "bDowngrade" : "Yes",
+               "bdisplayProductName" : "true",
+               "packageSize" : "1",
+               "productName" : "AMD Radeon USB LED Driver",
+               "ptype" : "DRIVER",
+               "universalinf" : "<UNIVERSALINFNAME>",
+               "url" : "Drivers\\RadeonLED\\WT64A\\amdusbledfd.msi",
+               "version" : "1.0.0.0"
+            },
+            "Install" : {
+               "CmdParameters" : "Force DevPresent",
+               "Conditions" : {
+                  "EnumCheck" : [
+                     "*-*-*-*-*-*-*-*-USB-USB\\VID_2516&PID_015B&MI_00-",
+                     "*-*-*-*-*-*-*-*-USB-USB\\VID_2516&PID_015B&MI_01-",
+                     "*-*-*-*-*-*-*-*-USB-USB\\VID_2516&PID_015B&MI_02-",
+                     "*-*-*-*-*-*-*-*-USB-USB\\VID_2516&PID_014D&MI_00-",
+                     "*-*-*-*-*-*-*-*-USB-USB\\VID_2516&PID_014D&MI_01-",
+                     "*-*-*-*-*-*-*-*-USB-USB\\VID_2516&PID_014D&MI_02-"
+                  ],
+                  "OSCheck" : [
+                     "*-*-10.0-Yes-*-*",
+                     "*-*-6.1-Yes-*-*",
+                     "*-*-6.3-Yes-*-*",
+                     "*-*-6.0-Yes-*-Yes",
+                     "*-*-6.1-Yes-*-Yes",
+                     "*-*-10.0-Yes-*-Yes",
+                     "*-*-6.3-Yes-*-Yes",
+                     "*-*-10.0.17763.0-Yes-*-Yes"
+                  ]
+               },
+               "Order" : "340",
+               "pAlgo" : "",
+               "pRetryAlgo" : ""
+            }
+         },
+         {
+            "Info" : {
+               "Description" : "Radeon USB LED",
+               "InstallByDefault" : "No",
+               "Installfile" : "RadeonLED.msi",
+               "NoUninstallSupport" : "Yes",
+               "PID" : "W-00-0000-000-002-229-001-00-25",
+               "ProductGUID" : "{F826EB54-4C3F-4374-955A-08915311C4D9}",
+               "ProductUpgradeGUID" : "{5D33C7EA-5F00-4287-A2C4-146E3E64D469}",
+               "UninstallSupported" : "Yes",
+               "bDowngrade" : "Yes",
+               "bdisplayProductName" : "true",
+               "packageSize" : "10",
+               "productName" : "AMD Radeon USB LED Application",
+               "ptype" : "MSI",
+               "url" : "Apps\\RadeonLED\\RadeonLED.msi",
+               "version" : "1.0.1"
+            },
+            "Install" : {
+               "CmdParameters" : "REBOOT=ReallySuppress MSIFASTINSTALL=3",
+               "Conditions" : {
+                  "DependencyCheck" : [
+                     "*:*:W-00-0000-000-001-110-001-00-25:*"
+                  ],
+                  "OSCheck" : [
+                     "*-*-10.0-Yes-*-*",
+                     "*-*-6.1-Yes-*-*",
+                     "*-*-6.3-Yes-*-*",
+                     "*-*-6.3-Yes-*-Yes",
+                     "*-*-10.0-Yes-*-Yes",
+                     "*-*-10.0.17763.0-Yes-*-Yes"
+                  ]
+               },
+               "Order" : "800",
+               "pAlgo" : "",
+               "pRetryAlgo" : ""
+            }
+         },
+         {
+            "Info" : {
+               "Description" : "AMD Settings Branding",
+               "InstallByDefault" : "Yes",
+               "Installfile" : "CNBranding64.msi",
+               "NoUninstallSupport" : "Yes",
+               "PID" : "W-10-0U03-000-002-194-001-00-25",
+               "ProductGUID" : "{C871FC62-0186-40ED-BAEA-7C65BE367755}",
+               "ProductUpgradeGUID" : "{D72F6448-DD07-4DD4-A34B-F224A5106D9C}",
+               "UninstallSupported" : "Yes",
+               "bDowngrade" : "Yes",
+               "bdisplayProductName" : "true",
+               "productName" : "Branding64",
+               "ptype" : "MSI",
+               "url" : "Apps\\CNBranding\\CNBranding64.msi",
+               "version" : "1.00.0006"
+            },
+            "Install" : {
+               "CmdParameters" : "REBOOT=ReallySuppress",
+               "Conditions" : {
+                  "DependencyCheck" : [
+                     "*:*:W-10-0U01-000-002-192-001-00-25:*"
+                  ],
+                  "HWCheck" : [],
+                  "HWExclude" : [],
+                  "OSCheck" : [
+                     "*-*-10.0-Yes-*-*",
+                     "*-*-6.1-Yes-*-*",
+                     "*-*-6.3-Yes-*-*"
+                  ]
+               },
+               "Order" : "612",
                "pAlgo" : "",
                "pRetryAlgo" : ""
             }

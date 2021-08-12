@@ -1,6 +1,6 @@
 ;-----------------------------------------------
-;----------2107262313-21.20.21.01-210722a-369924E-RadeonSoftware
-;----------2337140
+;----------2108082247-21.20.23.01-210806a-370422E-RadeonSoftware
+;----------2342840
 
 ; AMD display information file
 ;
@@ -13,9 +13,9 @@ Signature="$Windows NT$"
 Provider=%ATI%
 ClassGUID={4D36E968-E325-11CE-BFC1-08002BE10318}
 Class=Display
-DriverVer=07/22/2021, 27.20.22021.1002
+DriverVer=08/06/2021, 27.20.22023.1004
 ;;LayoutFile=layout.inf
-CatalogFile=U0369924.CAT
+CatalogFile=U0370422.CAT
 
 [SignatureAttributes]
 atidxx32.dll=SignatureAttributes.PETrust
@@ -55,7 +55,7 @@ PETrust=true
 
 [DestinationDirs]
 DefaultDestDir  = 11
-DS.Graphics     = 13, B369889
+DS.Graphics     = 13, B370390
 DS.System32     = 11
 DS.SysWow64     = 10, SysWOW64
 R300.AMDKMPFD = 11, AMD\amdkmpfd
@@ -538,7 +538,8 @@ ExcludeFromSelect=*
 "%AMD73DF.4%" = ati2mtag_Navi22, PCI\VEN_1002&DEV_73DF&REV_C3
 "%AMD73DF.5%" = ati2mtag_Navi22, PCI\VEN_1002&DEV_73DF&REV_C5
 "%AMD73DF.6%" = ati2mtag_Navi22, PCI\VEN_1002&DEV_73DF&REV_CF
-"%AMD73FF.1%" = ati2mtag_Navi23, PCI\VEN_1002&DEV_73FF&REV_C3
+"%AMD73FF.1%" = ati2mtag_Navi23, PCI\VEN_1002&DEV_73FF&REV_C1
+"%AMD73FF.2%" = ati2mtag_Navi23, PCI\VEN_1002&DEV_73FF&REV_C3
 "%AMD9400.1%" = ati2mtag_Legacy, PCI\VEN_1002&DEV_9400
 "%AMD9403.1%" = ati2mtag_Legacy, PCI\VEN_1002&DEV_9403
 "%AMD9405.1%" = ati2mtag_Legacy, PCI\VEN_1002&DEV_9405
@@ -1542,7 +1543,7 @@ HKCR,"WOW6432Node\MediaFoundation\Transforms\17796aeb-0f66-4663-b8fb-99cbee0224c
 HKCR,"WOW6432Node\MediaFoundation\Transforms\17796aeb-0f66-4663-b8fb-99cbee0224ce",MFTFlags,%REG_DWORD%,0x00000004
 HKCR,"WOW6432Node\MediaFoundation\Transforms\Categories\d6c02d4b-6833-45b4-971a-05a4b04bab91\17796aeb-0f66-4663-b8fb-99cbee0224ce",,%FLG_ADDREG_KEYONLY%
 HKCR,"WOW6432Node\CLSID\{17796aeb-0f66-4663-b8fb-99cbee0224ce}",,,AMD D3D11 Hardware MFT Playback Decoder
-HKCR,"WOW6432Node\CLSID\{17796aeb-0f66-4663-b8fb-99cbee0224ce}\InProcServer32",,%REG_EXPAND_SZ%,%13%\B369889\amdhwdecoder_32.dll
+HKCR,"WOW6432Node\CLSID\{17796aeb-0f66-4663-b8fb-99cbee0224ce}\InProcServer32",,%REG_EXPAND_SZ%,%13%\B370390\amdhwdecoder_32.dll
 HKCR,"MediaFoundation\Transforms\17796aeb-0f66-4663-b8fb-99cbee0224ce",,,AMD D3D11 Hardware MFT Playback Decoder
 HKCR,"MediaFoundation\Transforms\17796aeb-0f66-4663-b8fb-99cbee0224ce",InputTypes,%REG_BINARY%,76,69,64,73,00,00,10,00,80,00,00,AA,00,38,9B,71,4D,50,34,53,00,00,10,00,80,00,00,AA,00,38,9B,71,76,69,64,73,00,00,10,00,80,00,00,AA,00,38,9B,71,4D,34,53,32,00,00,10,00,80,00,00,AA,00,38,9B,71,76,69,64,73,00,00,10,00,80,00,00,AA,00,38,9B,71,4D,50,34,56,00,00,10,00,80,00,00,AA,00,38,9B,71,76,69,64,73,00,00,10,00,80,00,00,AA,00,38,9B,71,44,49,56,58,00,00,10,00,80,00,00,AA,00,38,9B,71,76,69,64,73,00,00,10,00,80,00,00,AA,00,38,9B,71,64,69,76,78,00,00,10,00,80,00,00,AA,00,38,9B,71,76,69,64,73,00,00,10,00,80,00,00,AA,00,38,9B,71,44,58,35,30,00,00,10,00,80,00,00,AA,00,38,9B,71,76,69,64,73,00,00,10,00,80,00,00,AA,00,38,9B,71,64,78,35,30,00,00,10,00,80,00,00,AA,00,38,9B,71,76,69,64,73,00,00,10,00,80,00,00,AA,00,38,9B,71,58,56,49,44,00,00,10,00,80,00,00,AA,00,38,9B,71,76,69,64,73,00,00,10,00,80,00,00,AA,00,38,9B,71,78,76,69,64,00,00,10,00,80,00,00,AA,00,38,9B,71
 HKCR,"MediaFoundation\Transforms\17796aeb-0f66-4663-b8fb-99cbee0224ce",OutputTypes,%REG_BINARY%,76,69,64,73,00,00,10,00,80,00,00,AA,00,38,9B,71,4E,56,31,32,00,00,10,00,80,00,00,AA,00,38,9B,71
@@ -1550,7 +1551,7 @@ HKCR,"MediaFoundation\Transforms\17796aeb-0f66-4663-b8fb-99cbee0224ce",Attribute
 HKCR,"MediaFoundation\Transforms\17796aeb-0f66-4663-b8fb-99cbee0224ce",MFTFlags,%REG_DWORD%,0x00000004
 HKCR,"MediaFoundation\Transforms\Categories\d6c02d4b-6833-45b4-971a-05a4b04bab91\17796aeb-0f66-4663-b8fb-99cbee0224ce",,%FLG_ADDREG_KEYONLY%
 HKLM,"Software\Classes\CLSID\{17796aeb-0f66-4663-b8fb-99cbee0224ce}",,,AMD D3D11 Hardware MFT Playback Decoder
-HKLM,"Software\Classes\CLSID\{17796aeb-0f66-4663-b8fb-99cbee0224ce}\InProcServer32",,%REG_EXPAND_SZ%,%13%\B369889\amdhwdecoder_64.dll
+HKLM,"Software\Classes\CLSID\{17796aeb-0f66-4663-b8fb-99cbee0224ce}\InProcServer32",,%REG_EXPAND_SZ%,%13%\B370390\amdhwdecoder_64.dll
 HKLM,"Software\Classes\CLSID\{17796aeb-0f66-4663-b8fb-99cbee0224ce}\InProcServer32",ThreadingModel,,Both
 HKCR,"WOW6432Node\CLSID\{17796aeb-0f66-4663-b8fb-99cbee0224ce}\InProcServer32",ThreadingModel,,Both
 HKR,"MediaFoundation\Transforms\17796aeb-0f66-4663-b8fb-99cbee0224ce",Attributes,%REG_BINARY%,41,46,4D,49,07,00,00,00,C8,4F,6B,20,F9,FC,51,4C,AF,E3,97,64,36,9E,33,A0,13,00,00,00,00,00,00,00,01,00,00,00,00,00,00,00,AC,66,B8,2F,78,B0,42,49,AB,6C,00,3D,05,CD,A6,74,1F,00,00,00,00,00,00,00,1A,00,00,00,E8,00,00,00,CC,B0,EC,3A,5B,03,CC,4B,81,85,2B,8D,55,1E,F3,AF,1F,00,00,00,00,00,00,00,08,00,00,00,02,01,00,00,11,6A,47,53,13,3F,FB,49,AC,42,EE,27,33,C9,67,41,13,00,00,00,00,00,00,00,01,00,00,00,00,00,00,00,15,CB,A7,88,07,7B,34,4A,91,28,E6,4C,67,03,C4,D3,13,00,00,00,00,00,00,00,08,00,00,00,00,00,00,00,29,5C,A3,EA,5E,77,8E,48,9B,61,B3,28,3E,49,58,3B,13,00,00,00,00,00,00,00,01,00,00,00,00,00,00,00,9A,69,1A,F8,9A,64,7D,49,8C,73,29,F8,FE,D6,AD,7A,13,00,00,00,00,00,00,00,01,00,00,00,00,00,00,00,41,00,4D,00,44,00,68,00,77,00,44,00,65,00,63,00,6F,00,64,00,65,00,72,00,00,00,41,00,4D,00,44,00,00,00
@@ -1564,9 +1565,9 @@ HKR,"Classes\WOW6432Node\MediaFoundation\Transforms\17796aeb-0f66-4663-b8fb-99cb
 HKR,"Classes\WOW6432Node\CLSID\{17796aeb-0f66-4663-b8fb-99cbee0224ce}\InProcServer32",ThreadingModel,,Both
 HKR,"Classes\CLSID\{17796aeb-0f66-4663-b8fb-99cbee0224ce}\InProcServer32",ThreadingModel,,Both
 HKR,"Classes\CLSID\{17796aeb-0f66-4663-b8fb-99cbee0224ce}",,,AMD D3D11 Hardware MFT Playback Decoder
-HKR,"Classes\CLSID\{17796aeb-0f66-4663-b8fb-99cbee0224ce}\InProcServer32",,%REG_EXPAND_SZ%,%13%\B369889\amdhwdecoder_64.dll
+HKR,"Classes\CLSID\{17796aeb-0f66-4663-b8fb-99cbee0224ce}\InProcServer32",,%REG_EXPAND_SZ%,%13%\B370390\amdhwdecoder_64.dll
 HKR,"Classes\WOW6432Node\CLSID\{17796aeb-0f66-4663-b8fb-99cbee0224ce}",,,AMD D3D11 Hardware MFT Playback Decoder
-HKR,"Classes\WOW6432Node\CLSID\{17796aeb-0f66-4663-b8fb-99cbee0224ce}\InProcServer32",,%REG_EXPAND_SZ%,%13%\B369889\amdhwdecoder_32.dll
+HKR,"Classes\WOW6432Node\CLSID\{17796aeb-0f66-4663-b8fb-99cbee0224ce}\InProcServer32",,%REG_EXPAND_SZ%,%13%\B370390\amdhwdecoder_32.dll
 HKR,"Classes\WOW6432Node\MediaFoundation\Transforms\17796aeb-0f66-4663-b8fb-99cbee0224ce",,,AMD D3D11 Hardware MFT Playback Decoder
 HKR,"Classes\WOW6432Node\MediaFoundation\Transforms\Categories\d6c02d4b-6833-45b4-971a-05a4b04bab91\17796aeb-0f66-4663-b8fb-99cbee0224ce",,%FLG_ADDREG_KEYONLY%
 HKR,"MediaFoundation\Transforms\17796aeb-0f66-4663-b8fb-99cbee0224ce",,,AMD D3D11 Hardware MFT Playback Decoder
@@ -1580,7 +1581,7 @@ HKCR,"WOW6432Node\MediaFoundation\Transforms\adc9bc80-0f41-46c6-ab75-d693d793597
 HKCR,"WOW6432Node\MediaFoundation\Transforms\adc9bc80-0f41-46c6-ab75-d693d793597d",MFTFlags,%REG_DWORD%,0x00000004
 HKCR,"WOW6432Node\MediaFoundation\Transforms\Categories\f79eac7d-e545-4387-bdee-d647d7bde42a\adc9bc80-0f41-46c6-ab75-d693d793597d",,%FLG_ADDREG_KEYONLY%
 HKCR,"WOW6432Node\CLSID\{ADC9BC80-0F41-46C6-AB75-D693D793597D}",,,AMDh264Encoder
-HKCR,"WOW6432Node\CLSID\{ADC9BC80-0F41-46C6-AB75-D693D793597D}\InProcServer32",,%REG_EXPAND_SZ%,%13%\B369889\amdh264enc32.dll
+HKCR,"WOW6432Node\CLSID\{ADC9BC80-0F41-46C6-AB75-D693D793597D}\InProcServer32",,%REG_EXPAND_SZ%,%13%\B370390\amdh264enc32.dll
 HKCR,"WOW6432Node\CLSID\{ADC9BC80-0F41-46C6-AB75-D693D793597D}\InProcServer32",ThreadingModel,,Both
 HKCR,"MediaFoundation\Transforms\adc9bc80-0f41-46c6-ab75-d693d793597d",,,AMDh264Encoder
 HKCR,"MediaFoundation\Transforms\adc9bc80-0f41-46c6-ab75-d693d793597d",InputTypes,%REG_BINARY%,76,69,64,73,00,00,10,00,80,00,00,AA,00,38,9B,71,4E,56,31,32,00,00,10,00,80,00,00,AA,00,38,9B,71,76,69,64,73,00,00,10,00,80,00,00,AA,00,38,9B,71,15,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71
@@ -1589,7 +1590,7 @@ HKCR,"MediaFoundation\Transforms\adc9bc80-0f41-46c6-ab75-d693d793597d",Attribute
 HKCR,"MediaFoundation\Transforms\adc9bc80-0f41-46c6-ab75-d693d793597d",MFTFlags,%REG_DWORD%,0x00000004
 HKCR,"MediaFoundation\Transforms\Categories\f79eac7d-e545-4387-bdee-d647d7bde42a\adc9bc80-0f41-46c6-ab75-d693d793597d",,%FLG_ADDREG_KEYONLY%
 HKLM,"Software\Classes\CLSID\{ADC9BC80-0F41-46C6-AB75-D693D793597D}",,,AMDh264Encoder
-HKLM,"Software\Classes\CLSID\{ADC9BC80-0F41-46C6-AB75-D693D793597D}\InProcServer32",,%REG_EXPAND_SZ%,%13%\B369889\amdh264enc64.dll
+HKLM,"Software\Classes\CLSID\{ADC9BC80-0F41-46C6-AB75-D693D793597D}\InProcServer32",,%REG_EXPAND_SZ%,%13%\B370390\amdh264enc64.dll
 HKLM,"Software\Classes\CLSID\{ADC9BC80-0F41-46C6-AB75-D693D793597D}\InProcServer32",ThreadingModel,,Both
 HKR,"Classes\WOW6432Node\MediaFoundation\Transforms\adc9bc80-0f41-46c6-ab75-d693d793597d",,,AMDh264Encoder
 HKR,"MediaFoundation\Transforms\adc9bc80-0f41-46c6-ab75-d693d793597d",Attributes,%REG_BINARY%,41,46,4D,49,09,00,00,00,C8,4F,6B,20,F9,FC,51,4C,AF,E3,97,64,36,9E,33,A0,13,00,00,00,00,00,00,00,01,00,00,00,00,00,00,00,AC,66,B8,2F,78,B0,42,49,AB,6C,00,3D,05,CD,A6,74,1F,00,00,00,00,00,00,00,1E,00,00,00,28,01,00,00,CC,B0,EC,3A,5B,03,CC,4B,81,85,2B,8D,55,1E,F3,AF,1F,00,00,00,00,00,00,00,12,00,00,00,46,01,00,00,11,6A,47,53,13,3F,FB,49,AC,42,EE,27,33,C9,67,41,13,00,00,00,00,00,00,00,01,00,00,00,00,00,00,00,15,CB,A7,88,07,7B,34,4A,91,28,E6,4C,67,03,C4,D3,13,00,00,00,00,00,00,00,08,00,00,00,00,00,00,00,6B,6D,66,E5,22,34,B6,4E,A4,21,DA,7D,B1,F8,E2,07,13,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,29,5C,A3,EA,5E,77,8E,48,9B,61,B3,28,3E,49,58,3B,13,00,00,00,00,00,00,00,01,00,00,00,00,00,00,00,93,90,4B,F3,E0,05,16,4B,99,3D,3E,2A,2C,DE,6A,D3,15,00,00,00,00,00,00,00,00,00,00,00,0A,00,12,00,9A,69,1A,F8,9A,64,7D,49,8C,73,29,F8,FE,D6,AD,7A,13,00,00,00,00,00,00,00,01,00,00,00,00,00,00,00,41,00,4D,00,44,00,68,00,32,00,36,00,34,00,45,00,6E,00,63,00,6F,00,64,00,65,00,72,00,00,00,56,00,45,00,4E,00,5F,00,31,00,30,00,30,00,32,00,00,00
@@ -1603,9 +1604,9 @@ HKR,"Classes\WOW6432Node\MediaFoundation\Transforms\adc9bc80-0f41-46c6-ab75-d693
 HKR,"Classes\WOW6432Node\CLSID\{ADC9BC80-0F41-46C6-AB75-D693D793597D}\InProcServer32",ThreadingModel,,Both
 HKR,"Classes\CLSID\{ADC9BC80-0F41-46C6-AB75-D693D793597D}\InProcServer32",ThreadingModel,,Both
 HKR,"Classes\CLSID\{ADC9BC80-0F41-46C6-AB75-D693D793597D}",,,AMDh264Encoder
-HKR,"Classes\CLSID\{ADC9BC80-0F41-46C6-AB75-D693D793597D}\InProcServer32",,%REG_EXPAND_SZ%,%13%\B369889\amdh264enc64.dll
+HKR,"Classes\CLSID\{ADC9BC80-0F41-46C6-AB75-D693D793597D}\InProcServer32",,%REG_EXPAND_SZ%,%13%\B370390\amdh264enc64.dll
 HKR,"Classes\WOW6432Node\CLSID\{ADC9BC80-0F41-46C6-AB75-D693D793597D}",,,AMDh264Encoder
-HKR,"Classes\WOW6432Node\CLSID\{ADC9BC80-0F41-46C6-AB75-D693D793597D}\InProcServer32",,%REG_EXPAND_SZ%,%13%\B369889\amdh264enc32.dll
+HKR,"Classes\WOW6432Node\CLSID\{ADC9BC80-0F41-46C6-AB75-D693D793597D}\InProcServer32",,%REG_EXPAND_SZ%,%13%\B370390\amdh264enc32.dll
 HKR,"Classes\WOW6432Node\MediaFoundation\Transforms\Categories\f79eac7d-e545-4387-bdee-d647d7bde42a\adc9bc80-0f41-46c6-ab75-d693d793597d",,%FLG_ADDREG_KEYONLY%
 HKR,"MediaFoundation\Transforms\adc9bc80-0f41-46c6-ab75-d693d793597d",,,AMDh264Encoder
 HKR,"MediaFoundation\Transforms\Categories\f79eac7d-e545-4387-bdee-d647d7bde42a\adc9bc80-0f41-46c6-ab75-d693d793597d",,%FLG_ADDREG_KEYONLY%
@@ -1618,7 +1619,7 @@ HKCR,"WOW6432Node\MediaFoundation\Transforms\687cbc51-25da-4ffc-a678-1e64943285a
 HKCR,"WOW6432Node\MediaFoundation\Transforms\687cbc51-25da-4ffc-a678-1e64943285a7",MFTFlags,%REG_DWORD%,0x00000004
 HKCR,"WOW6432Node\MediaFoundation\Transforms\Categories\d6c02d4b-6833-45b4-971a-05a4b04bab91\687cbc51-25da-4ffc-a678-1e64943285a7",,%FLG_ADDREG_KEYONLY%
 HKCR,"WOW6432Node\CLSID\{687CBC51-25DA-4FFC-A678-1E64943285A7}",,,AMD MFT MJPEG Decoder
-HKCR,"WOW6432Node\CLSID\{687CBC51-25DA-4FFC-A678-1E64943285A7}\InProcServer32",,%REG_EXPAND_SZ%,%13%\B369889\amf-mft-mjpeg-decoder32.dll
+HKCR,"WOW6432Node\CLSID\{687CBC51-25DA-4FFC-A678-1E64943285A7}\InProcServer32",,%REG_EXPAND_SZ%,%13%\B370390\amf-mft-mjpeg-decoder32.dll
 HKCR,"WOW6432Node\CLSID\{687CBC51-25DA-4FFC-A678-1E64943285A7}\InProcServer32",ThreadingModel,,Both
 HKLM,"Software\WOW6432Node\Microsoft\Windows Media Foundation\HardwareMFT",EnableDecoders,%REG_DWORD%,0x00000001
 HKCR,"MediaFoundation\Transforms\687cbc51-25da-4ffc-a678-1e64943285a7",,,AMD MFT MJPEG Decoder
@@ -1628,7 +1629,7 @@ HKCR,"MediaFoundation\Transforms\687cbc51-25da-4ffc-a678-1e64943285a7",Attribute
 HKCR,"MediaFoundation\Transforms\687cbc51-25da-4ffc-a678-1e64943285a7",MFTFlags,%REG_DWORD%,0x00000004
 HKCR,"MediaFoundation\Transforms\Categories\d6c02d4b-6833-45b4-971a-05a4b04bab91\687cbc51-25da-4ffc-a678-1e64943285a7",,%FLG_ADDREG_KEYONLY%
 HKLM,"Software\Classes\CLSID\{687CBC51-25DA-4FFC-A678-1E64943285A7}",,,AMD MFT MJPEG Decoder
-HKLM,"Software\Classes\CLSID\{687CBC51-25DA-4FFC-A678-1E64943285A7}\InProcServer32",,%REG_EXPAND_SZ%,%13%\B369889\amf-mft-mjpeg-decoder64.dll
+HKLM,"Software\Classes\CLSID\{687CBC51-25DA-4FFC-A678-1E64943285A7}\InProcServer32",,%REG_EXPAND_SZ%,%13%\B370390\amf-mft-mjpeg-decoder64.dll
 HKLM,"Software\Classes\CLSID\{687CBC51-25DA-4FFC-A678-1E64943285A7}\InProcServer32",ThreadingModel,,Both
 HKLM,"Software\Microsoft\Windows Media Foundation\HardwareMFT",EnableDecoders,%REG_DWORD%,0x00000001
 HKR,"MediaFoundation\Transforms\687cbc51-25da-4ffc-a678-1e64943285a7",Attributes,%REG_BINARY%,41,46,4D,49,0A,00,00,00,C8,4F,6B,20,F9,FC,51,4C,AF,E3,97,64,36,9E,33,A0,13,00,00,00,00,00,00,00,01,00,00,00,00,00,00,00,AC,66,B8,2F,78,B0,42,49,AB,6C,00,3D,05,CD,A6,74,1F,00,00,00,00,00,00,00,2C,00,00,00,48,01,00,00,AE,FB,4F,31,41,5B,95,4C,9C,19,4E,7D,58,6F,AC,E3,1F,00,00,00,00,00,00,00,4E,00,00,00,74,01,00,00,CC,B0,EC,3A,5B,03,CC,4B,81,85,2B,8D,55,1E,F3,AF,1F,00,00,00,00,00,00,00,12,00,00,00,C2,01,00,00,11,6A,47,53,13,3F,FB,49,AC,42,EE,27,33,C9,67,41,13,00,00,00,00,00,00,00,01,00,00,00,00,00,00,00,15,CB,A7,88,07,7B,34,4A,91,28,E6,4C,67,03,C4,D3,13,00,00,00,00,00,00,00,08,00,00,00,00,00,00,00,6B,6D,66,E5,22,34,B6,4E,A4,21,DA,7D,B1,F8,E2,07,13,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,29,5C,A3,EA,5E,77,8E,48,9B,61,B3,28,3E,49,58,3B,13,00,00,00,00,00,00,00,01,00,00,00,00,00,00,00,93,90,4B,F3,E0,05,16,4B,99,3D,3E,2A,2C,DE,6A,D3,15,00,00,00,00,00,00,00,00,00,00,00,0A,00,12,00,9A,69,1A,F8,9A,64,7D,49,8C,73,29,F8,FE,D6,AD,7A,13,00,00,00,00,00,00,00,01,00,00,00,00,00,00,00,41,00,4D,00,44,00,20,00,4D,00,46,00,54,00,20,00,4D,00,4A,00,50,00,45,00,47,00,20,00,44,00,65,00,63,00,6F,00,64,00,65,00,72,00,00,00,41,00,4D,00,44,00,20,00,68,00,61,00,72,00,64,00,77,00,61,00,72,00,65,00,2D,00,61,00,63,00,63,00,65,00,6C,00,65,00,72,00,61,00,74,00,65,00,64,00,20,00,4D,00,4A,00,50,00,45,00,47,00,20,00,64,00,65,00,63,00,6F,00,64,00,65,00,72,00,00,00,56,00,45,00,4E,00,5F,00,31,00,30,00,30,00,32,00,00,00
@@ -1644,9 +1645,9 @@ HKR,"Classes\WOW6432Node\MediaFoundation\Transforms\687cbc51-25da-4ffc-a678-1e64
 HKR,"Classes\WOW6432Node\CLSID\{687CBC51-25DA-4FFC-A678-1E64943285A7}\InProcServer32",ThreadingModel,,Both
 HKR,"Classes\CLSID\{687CBC51-25DA-4FFC-A678-1E64943285A7}\InProcServer32",ThreadingModel,,Both
 HKR,"Classes\CLSID\{687CBC51-25DA-4FFC-A678-1E64943285A7}",,,AMD MFT MJPEG Decoder
-HKR,"Classes\CLSID\{687CBC51-25DA-4FFC-A678-1E64943285A7}\InProcServer32",,%REG_EXPAND_SZ%,%13%\B369889\amf-mft-mjpeg-decoder64.dll
+HKR,"Classes\CLSID\{687CBC51-25DA-4FFC-A678-1E64943285A7}\InProcServer32",,%REG_EXPAND_SZ%,%13%\B370390\amf-mft-mjpeg-decoder64.dll
 HKR,"Classes\WOW6432Node\CLSID\{687CBC51-25DA-4FFC-A678-1E64943285A7}",,,AMD MFT MJPEG Decoder
-HKR,"Classes\WOW6432Node\CLSID\{687CBC51-25DA-4FFC-A678-1E64943285A7}\InProcServer32",,%REG_EXPAND_SZ%,%13%\B369889\amf-mft-mjpeg-decoder32.dll
+HKR,"Classes\WOW6432Node\CLSID\{687CBC51-25DA-4FFC-A678-1E64943285A7}\InProcServer32",,%REG_EXPAND_SZ%,%13%\B370390\amf-mft-mjpeg-decoder32.dll
 HKR,"Classes\WOW6432Node\MediaFoundation\Transforms\687cbc51-25da-4ffc-a678-1e64943285a7",,,AMD MFT MJPEG Decoder
 HKR,"Classes\WOW6432Node\MediaFoundation\Transforms\Categories\d6c02d4b-6833-45b4-971a-05a4b04bab91\687cbc51-25da-4ffc-a678-1e64943285a7",,%FLG_ADDREG_KEYONLY%
 HKR,"MediaFoundation\Transforms\687cbc51-25da-4ffc-a678-1e64943285a7",,,AMD MFT MJPEG Decoder
@@ -1660,7 +1661,7 @@ HKCR,"WOW6432Node\MediaFoundation\Transforms\5fd65104-a924-4835-ab71-09a223e3e37
 HKCR,"WOW6432Node\MediaFoundation\Transforms\5fd65104-a924-4835-ab71-09a223e3e37b",MFTFlags,%REG_DWORD%,0x00000004
 HKCR,"WOW6432Node\MediaFoundation\Transforms\Categories\f79eac7d-e545-4387-bdee-d647d7bde42a\5fd65104-a924-4835-ab71-09a223e3e37b",,%FLG_ADDREG_KEYONLY%
 HKCR,"WOW6432Node\CLSID\{5FD65104-A924-4835-AB71-09A223E3E37B}",,,AMDh265Encoder
-HKCR,"WOW6432Node\CLSID\{5FD65104-A924-4835-AB71-09A223E3E37B}\InProcServer32",,%REG_EXPAND_SZ%,%13%\B369889\amdh265enc32.dll
+HKCR,"WOW6432Node\CLSID\{5FD65104-A924-4835-AB71-09A223E3E37B}\InProcServer32",,%REG_EXPAND_SZ%,%13%\B370390\amdh265enc32.dll
 HKCR,"WOW6432Node\CLSID\{5FD65104-A924-4835-AB71-09A223E3E37B}\InProcServer32",ThreadingModel,,Both
 HKCR,"MediaFoundation\Transforms\5fd65104-a924-4835-ab71-09a223e3e37b",,,AMDh265Encoder
 HKCR,"MediaFoundation\Transforms\5fd65104-a924-4835-ab71-09a223e3e37b",InputTypes,%REG_BINARY%,76,69,64,73,00,00,10,00,80,00,00,AA,00,38,9B,71,4E,56,31,32,00,00,10,00,80,00,00,AA,00,38,9B,71,76,69,64,73,00,00,10,00,80,00,00,AA,00,38,9B,71,15,00,00,00,00,00,10,00,80,00,00,AA,00,38,9B,71
@@ -1669,7 +1670,7 @@ HKCR,"MediaFoundation\Transforms\5fd65104-a924-4835-ab71-09a223e3e37b",Attribute
 HKCR,"MediaFoundation\Transforms\5fd65104-a924-4835-ab71-09a223e3e37b",MFTFlags,%REG_DWORD%,0x00000004
 HKCR,"MediaFoundation\Transforms\Categories\f79eac7d-e545-4387-bdee-d647d7bde42a\5fd65104-a924-4835-ab71-09a223e3e37b",,%FLG_ADDREG_KEYONLY%
 HKLM,"Software\Classes\CLSID\{5FD65104-A924-4835-AB71-09A223E3E37B}",,,AMDh265Encoder
-HKLM,"Software\Classes\CLSID\{5FD65104-A924-4835-AB71-09A223E3E37B}\InProcServer32",,%REG_EXPAND_SZ%,%13%\B369889\amdh265enc64.dll
+HKLM,"Software\Classes\CLSID\{5FD65104-A924-4835-AB71-09A223E3E37B}\InProcServer32",,%REG_EXPAND_SZ%,%13%\B370390\amdh265enc64.dll
 HKLM,"Software\Classes\CLSID\{5FD65104-A924-4835-AB71-09A223E3E37B}\InProcServer32",ThreadingModel,,Both
 HKR,"MediaFoundation\Transforms\5fd65104-a924-4835-ab71-09a223e3e37b",Attributes,%REG_BINARY%,41,46,4D,49,09,00,00,00,C8,4F,6B,20,F9,FC,51,4C,AF,E3,97,64,36,9E,33,A0,13,00,00,00,00,00,00,00,01,00,00,00,00,00,00,00,AC,66,B8,2F,78,B0,42,49,AB,6C,00,3D,05,CD,A6,74,1F,00,00,00,00,00,00,00,1E,00,00,00,28,01,00,00,CC,B0,EC,3A,5B,03,CC,4B,81,85,2B,8D,55,1E,F3,AF,1F,00,00,00,00,00,00,00,12,00,00,00,46,01,00,00,11,6A,47,53,13,3F,FB,49,AC,42,EE,27,33,C9,67,41,13,00,00,00,00,00,00,00,01,00,00,00,00,00,00,00,15,CB,A7,88,07,7B,34,4A,91,28,E6,4C,67,03,C4,D3,13,00,00,00,00,00,00,00,08,00,00,00,00,00,00,00,6B,6D,66,E5,22,34,B6,4E,A4,21,DA,7D,B1,F8,E2,07,13,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,29,5C,A3,EA,5E,77,8E,48,9B,61,B3,28,3E,49,58,3B,13,00,00,00,00,00,00,00,01,00,00,00,00,00,00,00,93,90,4B,F3,E0,05,16,4B,99,3D,3E,2A,2C,DE,6A,D3,15,00,00,00,00,00,00,00,00,00,00,00,0A,00,12,00,9A,69,1A,F8,9A,64,7D,49,8C,73,29,F8,FE,D6,AD,7A,13,00,00,00,00,00,00,00,01,00,00,00,00,00,00,00,41,00,4D,00,44,00,68,00,32,00,36,00,35,00,45,00,6E,00,63,00,6F,00,64,00,65,00,72,00,00,00,56,00,45,00,4E,00,5F,00,31,00,30,00,30,00,32,00,00,00
 HKR,"Classes\WOW6432Node\MediaFoundation\Transforms\5fd65104-a924-4835-ab71-09a223e3e37b",Attributes,%REG_BINARY%,41,46,4D,49,09,00,00,00,C8,4F,6B,20,F9,FC,51,4C,AF,E3,97,64,36,9E,33,A0,13,00,00,00,00,00,00,00,01,00,00,00,00,00,00,00,AC,66,B8,2F,78,B0,42,49,AB,6C,00,3D,05,CD,A6,74,1F,00,00,00,00,00,00,00,1E,00,00,00,28,01,00,00,CC,B0,EC,3A,5B,03,CC,4B,81,85,2B,8D,55,1E,F3,AF,1F,00,00,00,00,00,00,00,12,00,00,00,46,01,00,00,11,6A,47,53,13,3F,FB,49,AC,42,EE,27,33,C9,67,41,13,00,00,00,00,00,00,00,01,00,00,00,00,00,00,00,15,CB,A7,88,07,7B,34,4A,91,28,E6,4C,67,03,C4,D3,13,00,00,00,00,00,00,00,08,00,00,00,00,00,00,00,6B,6D,66,E5,22,34,B6,4E,A4,21,DA,7D,B1,F8,E2,07,13,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,29,5C,A3,EA,5E,77,8E,48,9B,61,B3,28,3E,49,58,3B,13,00,00,00,00,00,00,00,01,00,00,00,00,00,00,00,93,90,4B,F3,E0,05,16,4B,99,3D,3E,2A,2C,DE,6A,D3,15,00,00,00,00,00,00,00,00,00,00,00,0A,00,12,00,9A,69,1A,F8,9A,64,7D,49,8C,73,29,F8,FE,D6,AD,7A,13,00,00,00,00,00,00,00,01,00,00,00,00,00,00,00,41,00,4D,00,44,00,68,00,32,00,36,00,35,00,45,00,6E,00,63,00,6F,00,64,00,65,00,72,00,00,00,56,00,45,00,4E,00,5F,00,31,00,30,00,30,00,32,00,00,00
@@ -1682,9 +1683,9 @@ HKR,"Classes\WOW6432Node\MediaFoundation\Transforms\5fd65104-a924-4835-ab71-09a2
 HKR,"Classes\WOW6432Node\CLSID\{5FD65104-A924-4835-AB71-09A223E3E37B}\InProcServer32",ThreadingModel,,Both
 HKR,"Classes\CLSID\{5FD65104-A924-4835-AB71-09A223E3E37B}\InProcServer32",ThreadingModel,,Both
 HKR,"Classes\CLSID\{5FD65104-A924-4835-AB71-09A223E3E37B}",,,AMDh265Encoder
-HKR,"Classes\CLSID\{5FD65104-A924-4835-AB71-09A223E3E37B}\InProcServer32",,%REG_EXPAND_SZ%,%13%\B369889\amdh265enc64.dll
+HKR,"Classes\CLSID\{5FD65104-A924-4835-AB71-09A223E3E37B}\InProcServer32",,%REG_EXPAND_SZ%,%13%\B370390\amdh265enc64.dll
 HKR,"Classes\WOW6432Node\CLSID\{5FD65104-A924-4835-AB71-09A223E3E37B}",,,AMDh265Encoder
-HKR,"Classes\WOW6432Node\CLSID\{5FD65104-A924-4835-AB71-09A223E3E37B}\InProcServer32",,%REG_EXPAND_SZ%,%13%\B369889\amdh265enc32.dll
+HKR,"Classes\WOW6432Node\CLSID\{5FD65104-A924-4835-AB71-09A223E3E37B}\InProcServer32",,%REG_EXPAND_SZ%,%13%\B370390\amdh265enc32.dll
 HKR,"Classes\WOW6432Node\MediaFoundation\Transforms\5fd65104-a924-4835-ab71-09a223e3e37b",,,AMDh265Encoder
 HKR,"Classes\WOW6432Node\MediaFoundation\Transforms\Categories\f79eac7d-e545-4387-bdee-d647d7bde42a\5fd65104-a924-4835-ab71-09a223e3e37b",,%FLG_ADDREG_KEYONLY%
 HKR,"MediaFoundation\Transforms\5fd65104-a924-4835-ab71-09a223e3e37b",,,AMDh265Encoder
@@ -1779,7 +1780,7 @@ ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
 StartType      = 3                  ; SERVICE_DEMAND_START
 ErrorControl   = 0                  ; SERVICE_ERROR_IGNORE
 LoadOrderGroup = Video
-ServiceBinary = %13%\B369889\amdkmdag.sys
+ServiceBinary = %13%\B370390\amdkmdag.sys
 
 [ati2mtag_ServiceSettings]
 HKR,,DCHUVen,%REG_DWORD%,0x1002
@@ -1800,7 +1801,7 @@ AddReg=Ati2evxx_EventLog_AddReg
 ServiceType    = 0x10
 StartType      = 2
 ErrorControl   = 1
-ServiceBinary  = %13%\B369889\atiesrxx.exe
+ServiceBinary  = %13%\B370390\atiesrxx.exe
 LoadOrderGroup = Event log
 
 [R300_EventLog_AddReg]
@@ -1868,40 +1869,40 @@ AddReg = atikmdag_MSI_HardwareDeviceSettings
 AddReg = atikmdag_MSI_HardwareDeviceSettings
 
 [ati2mtag_DSUMD]
-HKR,,OpenGLDriverName,%REG_MULTI_SZ%,%13%\B369889\atig6pxx.dll
-HKR,,UserModeDriverName,%REG_MULTI_SZ%,%13%\B369889\aticfx64.dll,%13%\B369889\aticfx64.dll,%13%\B369889\aticfx64.dll,%13%\B369889\amdxc64.dll
-HKR,,UserModeDriverNameWow,%REG_MULTI_SZ%,%13%\B369889\aticfx32.dll,%13%\B369889\aticfx32.dll,%13%\B369889\aticfx32.dll,%13%\B369889\amdxc32.dll
+HKR,,OpenGLDriverName,%REG_MULTI_SZ%,%13%\B370390\atig6pxx.dll
+HKR,,UserModeDriverName,%REG_MULTI_SZ%,%13%\B370390\aticfx64.dll,%13%\B370390\aticfx64.dll,%13%\B370390\aticfx64.dll,%13%\B370390\amdxc64.dll
+HKR,,UserModeDriverNameWow,%REG_MULTI_SZ%,%13%\B370390\aticfx32.dll,%13%\B370390\aticfx32.dll,%13%\B370390\aticfx32.dll,%13%\B370390\amdxc32.dll
 HKR,,ProxyLDA_Support,%REG_DWORD%,2
 HKR,,OpenGLDynamicPX,%REG_DWORD%,1
-HKR,,UserModeDListDriverName,%REG_SZ%,%13%\B369889\amdhdl64.dll
-HKR,,UserModeDListDriverNameWow,%REG_SZ%,%13%\B369889\amdhdl32.dll
-HKR,,OpenGLDriverNameWoW,%REG_MULTI_SZ%,%13%\B369889\atiglpxx.dll
-HKR,,VulkanDriverName,%REG_SZ%,%13%\B369889\amd-vulkan64.json
-HKR,,VulkanImplicitLayers,%REG_SZ%,%13%\B369889\amd-vulkan64.json
-HKR,,VulkanDriverNameWow,%REG_SZ%,%13%\B369889\amd-vulkan32.json
-HKR,,VulkanImplicitLayersWow,%REG_SZ%,%13%\B369889\amd-vulkan32.json
-HKR,CopyToVmOverwrite,AMDOpenCL12,%REG_MULTI_SZ%,"B369889\amdocl12cl64.dll","amdocl12cl64.dll"
-HKR,CopyToVmOverwriteWow64,AMDOpenCL12,%REG_MULTI_SZ%,"B369889\amdocl12cl.dll","amdocl12cl.dll"
-HKR,,OpenCLDriverName,%REG_SZ%,%13%\B369889\amdocl64.dll
-HKR,,OpenCLDriverNameWow,%REG_SZ%,%13%\B369889\amdocl.dll
-HKR,CopyToVmOverwrite,AMDOpenCL,%REG_MULTI_SZ%,"B369889\amdocl64.dll","amdocl64.dll"
-HKR,CopyToVmOverwriteWow64,AMDOpenCL,%REG_MULTI_SZ%,"B369889\amdocl.dll","amdocl.dll"
-HKR,CopyToVmOverwrite,AMDOpenCLLoader,%REG_MULTI_SZ%,"B369889\amd_opencl64.dll","opencl.dll"
-HKR,CopyToVmOverwriteWow64,AMDOpenCLLoader,%REG_MULTI_SZ%,"B369889\amd_opencl32.dll","opencl.dll"
-HKR,,OpenGLVendorName,%REG_MULTI_SZ%,%13%\B369889\atio6axx.dll,%13%\B369889\atio6axx.dll
-HKR,,OpenGLVendorNameWoW,%REG_MULTI_SZ%,%13%\B369889\atioglxx.dll,%13%\B369889\atioglxx.dll
-HKR,CopyToVmOverwrite,AMDOpenGL,%REG_MULTI_SZ%,"B369889\atio6axx.dll","atio6axx.dll"
-HKR,CopyToVmOverwriteWow64,AMDOpenGL,%REG_MULTI_SZ%,"B369889\atioglxx.dll","atioglxx.dll"
-HKR,,UserModeDriverNameWsl,%REG_MULTI_SZ%,%13%\B369889\amdxc64.so
+HKR,,UserModeDListDriverName,%REG_SZ%,%13%\B370390\amdhdl64.dll
+HKR,,UserModeDListDriverNameWow,%REG_SZ%,%13%\B370390\amdhdl32.dll
+HKR,,OpenGLDriverNameWoW,%REG_MULTI_SZ%,%13%\B370390\atiglpxx.dll
+HKR,,VulkanDriverName,%REG_SZ%,%13%\B370390\amd-vulkan64.json
+HKR,,VulkanImplicitLayers,%REG_SZ%,%13%\B370390\amd-vulkan64.json
+HKR,,VulkanDriverNameWow,%REG_SZ%,%13%\B370390\amd-vulkan32.json
+HKR,,VulkanImplicitLayersWow,%REG_SZ%,%13%\B370390\amd-vulkan32.json
+HKR,CopyToVmOverwrite,AMDOpenCL12,%REG_MULTI_SZ%,"B370390\amdocl12cl64.dll","amdocl12cl64.dll"
+HKR,CopyToVmOverwriteWow64,AMDOpenCL12,%REG_MULTI_SZ%,"B370390\amdocl12cl.dll","amdocl12cl.dll"
+HKR,,OpenCLDriverName,%REG_SZ%,%13%\B370390\amdocl64.dll
+HKR,,OpenCLDriverNameWow,%REG_SZ%,%13%\B370390\amdocl.dll
+HKR,CopyToVmOverwrite,AMDOpenCL,%REG_MULTI_SZ%,"B370390\amdocl64.dll","amdocl64.dll"
+HKR,CopyToVmOverwriteWow64,AMDOpenCL,%REG_MULTI_SZ%,"B370390\amdocl.dll","amdocl.dll"
+HKR,CopyToVmOverwrite,AMDOpenCLLoader,%REG_MULTI_SZ%,"B370390\amd_opencl64.dll","opencl.dll"
+HKR,CopyToVmOverwriteWow64,AMDOpenCLLoader,%REG_MULTI_SZ%,"B370390\amd_opencl32.dll","opencl.dll"
+HKR,,OpenGLVendorName,%REG_MULTI_SZ%,%13%\B370390\atio6axx.dll,%13%\B370390\atio6axx.dll
+HKR,,OpenGLVendorNameWoW,%REG_MULTI_SZ%,%13%\B370390\atioglxx.dll,%13%\B370390\atioglxx.dll
+HKR,CopyToVmOverwrite,AMDOpenGL,%REG_MULTI_SZ%,"B370390\atio6axx.dll","atio6axx.dll"
+HKR,CopyToVmOverwriteWow64,AMDOpenGL,%REG_MULTI_SZ%,"B370390\atioglxx.dll","atioglxx.dll"
+HKR,,UserModeDriverNameWsl,%REG_MULTI_SZ%,%13%\B370390\amdxc64.so
 
 [ati2mtag_DSUMD_common]
-HKR,,D3DVendorName,%REG_MULTI_SZ%,%13%\B369889\atiumd64.dll,%13%\B369889\atiumd64.dll,%13%\B369889\atidxx64.dll,%13%\B369889\atidxx64.dll
-HKR,,D3DVendorNameWoW,%REG_MULTI_SZ%,%13%\B369889\atiumdag.dll,%13%\B369889\atiumdag.dll,%13%\B369889\atidxx32.dll,%13%\B369889\atidxx32.dll
+HKR,,D3DVendorName,%REG_MULTI_SZ%,%13%\B370390\atiumd64.dll,%13%\B370390\atiumd64.dll,%13%\B370390\atidxx64.dll,%13%\B370390\atidxx64.dll
+HKR,,D3DVendorNameWoW,%REG_MULTI_SZ%,%13%\B370390\atiumdag.dll,%13%\B370390\atiumdag.dll,%13%\B370390\atidxx32.dll,%13%\B370390\atidxx32.dll
 HKR,,InstalledDisplayDrivers,%REG_MULTI_SZ%,aticfx64,aticfx64,aticfx64,amdxc64,aticfx32,aticfx32,aticfx32,amdxc32,atiumd64,atidxx64,atidxx64,atiumdag,atidxx32,atidxx32,atiumdva,atiumd6a
 
 [ati2mtag_DSUMD_GFX10Plus]
-HKR,,D3DVendorName,%REG_MULTI_SZ%,%13%\B369889\amdxn64.dll,%13%\B369889\amdxn64.dll,%13%\B369889\atidxx64.dll,%13%\B369889\atidxx64.dll
-HKR,,D3DVendorNameWoW,%REG_MULTI_SZ%,%13%\B369889\amdxn32.dll,%13%\B369889\amdxn32.dll,%13%\B369889\atidxx32.dll,%13%\B369889\atidxx32.dll
+HKR,,D3DVendorName,%REG_MULTI_SZ%,%13%\B370390\amdxn64.dll,%13%\B370390\amdxn64.dll,%13%\B370390\atidxx64.dll,%13%\B370390\atidxx64.dll
+HKR,,D3DVendorNameWoW,%REG_MULTI_SZ%,%13%\B370390\amdxn32.dll,%13%\B370390\amdxn32.dll,%13%\B370390\atidxx32.dll,%13%\B370390\atidxx32.dll
 HKR,,InstalledDisplayDrivers,%REG_MULTI_SZ%,aticfx64,aticfx64,aticfx64,amdxc64,aticfx32,aticfx32,aticfx32,amdxc32,amdxn64,atidxx64,atidxx64,amdxn32,atidxx32,atidxx32,atiumdva,atiumd6a
 
 [ati2mtag_Raven.Software]
@@ -2333,6 +2334,7 @@ HKR,,CameraShakeMotionDetect_NA,%REG_SZ%,1
 HKR,,TextureLod_NA,%REG_SZ%,1
 HKR,,social_ui_component_na,%REG_SZ%,"true"
 HKR,,KMD_EnableSls,%REG_DWORD%,2
+HKR,,SMU_DisableMmhubPowerGating,%REG_DWORD%,1
 HKR,"UMD\DXVA",W7VideoExperience_NA,%REG_SZ%,0
 HKR,,ShowRSOverlay,%REG_SZ%,false
 HKR,"UMD\DXVA",EnableHLGSupport,%REG_SZ%,1
@@ -3813,7 +3815,7 @@ HKR,,VgaCompatible,%REG_DWORD%,0
 HKR,,"Adaptive De-interlacing",%REG_DWORD%,1
 HKR,,"VPE Adaptive De-interlacing",%REG_DWORD%,1
 HKR,,GCOOPTION_DisableGPIOPowerSaveMode,%REG_DWORD%,1
-HKR,,ReleaseVersion,,"21.20.21.01-210722a-369924E-RadeonSoftware"
+HKR,,ReleaseVersion,,"21.20.23.01-210806a-370422E-RadeonSoftware"
 HKR,,BuildNumber,,"09700"
 HKR,,UserModeDriverGUID,%REG_SZ%,{"4242B984-6C36-4FC8-8626-DE5E8B11886D"}
 HKR,,DALGameGammaScale,%REG_DWORD%,0x00646464
@@ -3936,7 +3938,7 @@ HKCR,"CLSID\{5E2121EE-0300-11D4-8D3B-444553540000}\VersionIndependentProgID",,,"
 HKCR,"Directory\Background\shellex\ContextMenuHandlers\ACE",,,"{5E2121EE-0300-11D4-8D3B-444553540000}"
 HKCR,"SOFTWARE\Microsoft\Windows\CurrentVersion\Shell Extensions\Approved",{5E2121EE-0300-11D4-8D3B-444553540000},,"Catalyst Context Menu extension"
 HKR,,RadeonSoftwareEdition,,"Adrenalin 2020"
-HKR,,RadeonSoftwareVersion,,"21.7.2"
+HKR,,RadeonSoftwareVersion,,"21.8.1"
 
 [atikmdag_MSI_HardwareDeviceSettings]
 HKR,"Interrupt Management\MessageSignaledInterruptProperties",MSISupported,0x00010001,1
@@ -4516,7 +4518,7 @@ MaximumDeviceMemoryConfiguration=128
 MaximumNumberOfDevices=4
 
 [SourceDisksNames.amd64]
-1 = %DiskId%,,,.\B369889
+1 = %DiskId%,,,.\B370390
 
 [SourceDisksFiles]
 amdkmdag.sys=1
@@ -5421,7 +5423,8 @@ AMD73DF.3 = "AMD Radeon RX 6700 XT"
 AMD73DF.4 = "AMD Radeon RX 6800M"
 AMD73DF.5 = "AMD Radeon RX 6700 XT"
 AMD73DF.6 = "AMD Radeon RX 6700M"
-AMD73FF.1 = "AMD Radeon RX 6600M"
+AMD73FF.1 = "AMD Radeon RX 6600 XT"
+AMD73FF.2 = "AMD Radeon RX 6600M"
 
 
 [PowerSlider]
